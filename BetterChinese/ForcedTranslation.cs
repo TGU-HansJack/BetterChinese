@@ -34,6 +34,7 @@ public static class ForcedTranslation {
 		if (!BetterChineseModSystem.Config.强制翻译) {
 			return;
 		}
+
 		// harmony.Patch(original: ContextTextExtentsMethod,
 		// 	prefix: ContextTextExtentsPreFixMethod);
 		// harmony.Patch(original: CairoFontGetTextExtentsMethod,
@@ -113,39 +114,32 @@ public static class ForcedTranslation {
 		if (string.IsNullOrWhiteSpace(text)) return;
 		if (!List.Contains(text)) {
 			List.Add(text);
-			BetterChineseModSystem.Logger?.Debug($"『{text.Replace("\n", "\\n").Replace("\r", "\\r")}』");
+			BetterChineseModSystem.Api?.Logger?.Debug($"『{text.Replace("\n", "\\n").Replace("\r", "\\r")}』");
 		}
 
 		var old = $"{text}";
 		if (Lang.HasTranslation(old, false, false)) {
 			text = $"{Lang.Get(old)}";
-		} else if(old.Contains('\n')) {
+		} else if (old.Contains('\n')) {
 			var arr = old.Split('\n');
 			for (var i = arr.Length - 1; i >= 0; i--) {
 				var line = arr[i];
 				Translation(ref line);
 				arr[i] = line;
 			}
+
 			text = string.Join('\n', arr);
 		}
 	}
 
 	// ReSharper disable once InconsistentNaming
-	public static void GuiElementEmbossedTextComposePreFix(ref string ___text) {
-		Translation(ref ___text);
-	}
+	public static void GuiElementEmbossedTextComposePreFix(ref string ___text) { Translation(ref ___text); }
 
-	public static void GuiElementTextBasePreFix(ref string text) {
-		Translation(ref text);
-	}
+	public static void GuiElementTextBasePreFix(ref string text) { Translation(ref text); }
 
-	public static void GuiElementDynamicTextSetNewTextPreFix(ref string text) {
-		Translation(ref text);
-	}
+	public static void GuiElementDynamicTextSetNewTextPreFix(ref string text) { Translation(ref text); }
 
-	public static void VtmlUtilRichtextifyPreFix(ref string vtmlCode) {
-		Translation(ref vtmlCode);
-	}
+	public static void VtmlUtilRichtextifyPreFix(ref string vtmlCode) { Translation(ref vtmlCode); }
 	// public static void TextDrawUtilDrawTextLinePreFix(ref string text) { Translation(ref text); }
 	//
 	// public static void ContextTextExtentsMethodPreFix(ref string s) { Translation(ref s); }

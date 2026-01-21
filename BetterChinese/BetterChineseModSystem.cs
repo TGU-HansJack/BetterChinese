@@ -12,13 +12,13 @@ using Vintagestory.Common;
 namespace BetterChinese;
 
 public class BetterChineseModSystem : ModSystem {
-	public static ILogger? Logger { get; private set; }
+	public static ICoreAPI? Api { get; set; }
 	public static HarmonyPatch? HarmonyPatch { get; set; }
 
 	public static Config Config { get; set; }
 
 	public override void StartPre(ICoreAPI api) {
-		Logger = api.Logger;
+		Api = api;
 		LoadConfig(api, Mod.Info.ModID);
 	}
 
@@ -40,7 +40,7 @@ public class BetterChineseModSystem : ModSystem {
 	}
 
 	public static void EarlyLoad(ModContainer mod, ScreenManager sm) {
-		Logger = mod.Logger;
+		Api = sm.api;
 		LoadConfig(sm.api, mod.Info.ModID);
 	}
 

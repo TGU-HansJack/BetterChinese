@@ -16,16 +16,16 @@ jobs:
     env:
       VINTAGE_STORY: /home/runner/work/BetterChinese/vintagestory
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Setup .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 10.0.x
     - name: Download VS Client
       run: |
-        curl -O https://cdn.vintagestory.at/gamefiles/stable/vs_client_linux-x64_1.21.5.tar.gz
-        tar -zxvf vs_client_linux-x64_1.21.5.tar.gz
-        rm -f vs_client_linux-x64_1.21.5.tar.gz
+        curl -O https://cdn.vintagestory.at/gamefiles/stable/vs_client_linux-x64_1.22.2.tar.gz
+        tar -zxvf vs_client_linux-x64_1.22.2.tar.gz
+        rm -f vs_client_linux-x64_1.22.2.tar.gz
     - name: Build
       run: |
         ls ./vintagestory
@@ -33,7 +33,7 @@ jobs:
         echo $VINTAGE_STORY
         dotnet run --project ./ZZCakeBuild/CakeBuild.csproj -- "$@"
   
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: BetterChinese
         path: Releases/*.zip

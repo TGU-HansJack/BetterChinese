@@ -13,7 +13,7 @@
 8. `Balanced Thirst / 口渴平衡` [0.0.43](https://mods.vintagestory.at/balancedthirst)
 9. ``Kanahaku`s (Not Only) Spear Expansion / Kanahaku的（不只是）长矛扩展`` [0.1.9](https://mods.vintagestory.at/show/mod/11264)
 10. `Improved Handbook Recipes / 强化手册配方` [1.1.2](https://mods.vintagestory.at/improvedhandbookrecipes)
-11. `Extra Info / 额外信息` [1.9.6](https://mods.vintagestory.at/extrainfo)
+11. `Extra Info / 额外信息` [2.1.0](https://mods.vintagestory.at/extrainfo)
 12. `Level UP / 等级提升` [1.2.9](https://mods.vintagestory.at/levelup)
 13. `VS Quest / VS任务系统` [1.2.0](https://mods.vintagestory.at/vsquest)
 14. `BetterRuins / 更好的遗迹` [0.4.10](https://mods.vintagestory.at/betterruins)

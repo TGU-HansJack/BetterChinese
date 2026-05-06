@@ -16,7 +16,7 @@
 11. `Extra Info / 额外信息` [2.1.0](https://mods.vintagestory.at/extrainfo)
 12. `Level UP / 等级提升` [1.2.9](https://mods.vintagestory.at/levelup)
 13. `VS Quest / VS任务系统` [1.2.0](https://mods.vintagestory.at/vsquest)
-14. `BetterRuins / 更好的遗迹` [0.4.10](https://mods.vintagestory.at/betterruins)
+14. `BetterRuins / 更好的遗迹` [0.6.1](https://mods.vintagestory.at/betterruins)
 15. `VS Village / VS村庄` [1.0.6](https://mods.vintagestory.at/vsvillage)
 16. `Truth and Beauty: Detailed Animals / 真实与美丽：细节动物` [0.5.0](https://mods.vintagestory.at/detailedanimals)
 17. `Primitive Survival / 原始生存` [4.0.0](https://mods.vintagestory.at/primitivesurvival)

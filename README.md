@@ -101,3 +101,4 @@
 96. `Bricklayers/泥匠工艺` [3.1.6](https://mods.vintagestory.at/bricklayers)
 97. `PlayerListRevived / 玩家列表复活版` [2.3.8](https://mods.vintagestory.at/show/mod/38228)
 98. `Block Overlay / 方块覆盖层` [4.10.3](https://mods.vintagestory.at/xray)
+99. `Immersive Body Temperature / 沉浸式体温` [1.0.2](https://mods.vintagestory.at/immersivebodytemperature)

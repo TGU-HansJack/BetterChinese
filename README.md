@@ -103,3 +103,4 @@
 98. `Block Overlay / 方块覆盖层` [4.10.3](https://mods.vintagestory.at/xray)
 99. `Immersive Body Temperature / 沉浸式体温` [1.0.2](https://mods.vintagestory.at/immersivebodytemperature)
 100. `Algernon's Watersheds / 阿尔杰农的流域` [6.2.0](https://mods.vintagestory.at/algernonswatersheds)
+101. `Interesting Ore Gen / 趣味矿石生成` [2.3.8](https://mods.vintagestory.at/interestingoregen)

@@ -107,3 +107,4 @@
 102. `Interesting Mining & Extraction / 趣味采矿与提取` [1.0.13](https://mods.vintagestory.at/interestingme)
 103. `BetterEr Prospecting / 更好地探矿` [3.2.4](https://mods.vintagestory.at/bettererprospecting)
 104. `Material Needs: Geology / 材料需求：地质学` [2.0.3](https://mods.vintagestory.at/materialneedsgeology)
+105. `Geology Additions / 地质扩展` [1.4.7](https://mods.vintagestory.at/geologyaddons)

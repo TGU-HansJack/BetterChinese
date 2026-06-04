@@ -1,0 +1,398 @@
+{
+
+    "mod-ithaniacannedgoods": "伊塔尼亚罐头",
+    "game:tabname-ithaniacannedgoods": "伊塔尼亚罐头",
+
+    //Canning Guide
+    "handbook-category-ithaniacannedgoods:category": "伊塔尼亚罐头制作",
+
+    "ithaniacannedgoods:canningguide-title": "罐头制作简介",
+    "ithaniacannedgoods:canningguide-text": "<font size=\"24\" weight=\"bold\">伊塔尼亚罐头</font><br><font opacity=\"0.75\">本罐头模组所有内容概览。</font><br><br>伊塔尼亚罐头添加了一套完整的食物保鲜系统，围绕两条主线展开：<strong>金属罐头</strong> 和 <strong>玻璃罐</strong>。两者共用同一个装罐台进行填装，但密封和加工设备不同，并且根据所用材料提供不同等级的保鲜效果。<br><br><font size=\"19\" weight=\"bold\">物品</font><br><font opacity=\"0.35\">────────────────────────</font><br><itemstack type=\"item\" code=\"ithaniacannedgoods:can-empty\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:can-empty\">空罐头</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:can-steel\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:can-steel\">钢制罐头</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:canlid-steel\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:canlid-steel\">钢制罐盖</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:canlid\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:canlid\">罐盖</a><br> <itemstack type=\"block\" code=\"ithaniacannedgoods:jar-plain-empty\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbooksearch://Empty Glass Jar\">空玻璃罐</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:jarlid-wood\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:jarlid-wood\">木制罐盖</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:jarlid-metal\" floattype=\"inline\" rsize=\"1.2\" offx=\"3.5\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:jarlid-metal\">金属罐盖</a><br><br><font size=\"19\" weight=\"bold\">方块</font><br><font opacity=\"0.35\">────────────────────────</font><br> <itemstack type=\"block\" code=\"ithaniacannedgoods:canningbench-oak-north\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbook://block-ithaniacannedgoods:canningbench-oak-north\">装罐台</a><br> <itemstack type=\"block\" code=\"ithaniacannedgoods:canpress-oak-north\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbook://block-ithaniacannedgoods:canpress-oak-north\">封罐机</a><br> <itemstack type=\"block\" code=\"ithaniacannedgoods:pressurecooker\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbook://block-ithaniacannedgoods:pressurecooker\">高压灭菌锅</a><br> <itemstack type=\"block\" code=\"ithaniacannedgoods:canningpot-steel\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbooksearch://canning pot\">罐装锅</a><br><br><font size=\"19\" weight=\"bold\">工具</font><br><font opacity=\"0.35\">────────────────────────</font><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:canopener\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbook://item-ithaniacannedgoods:canopener\">开罐器</a><br> <itemstack type=\"item\" code=\"ithaniacannedgoods:canningtongs-steel\" floattype=\"inline\" rsize=\"0.75\" offx=\"0\" offy=\"0\"></itemstack>  <a href=\"handbooksearch://canning tongs\">罐装钳</a><br><br><font size=\"19\" weight=\"bold\">金属罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>金属罐头在本模组中提供最高的保鲜效果，完全处理后约为正常腐败速度的 25 倍。它们会经历几个阶段——锻造、镀锡、填装、压合和高压灭菌——然后才成为保鲜罐头。详见 <a href=\"handbook://ithaniacannedgoods:cans\">罐头状态与保鲜流程</a> 指南。<br><br><font size=\"19\" weight=\"bold\">玻璃罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐有 12 种颜色变体。它们使用相同的装罐台进行填装，在 <a href=\"handbook://ithaniacannedgoods:canningpot\">罐装锅</a> 而非高压灭菌锅中加工。保鲜等级取决于所用的盖子——木盖（约 10 倍）、蜂蜡木盖（约 12 倍）或金属盖（约 15 倍）。详见 <a href=\"handbook://ithaniacannedgoods:glassjars\">玻璃罐与保鲜</a> 指南。<br><br><font size=\"19\" weight=\"bold\">热系统</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐头和玻璃罐从各自的加工锅中取出后都会保持高温。需要使用罐装钳安全地处理热容器。尤其是玻璃罐，如果在高温时掉落或遇水可能会破碎。详见 <a href=\"handbook://ithaniacannedgoods:hotsystem\">热系统</a> 和 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 指南。<br><br><font size=\"19\" weight=\"bold\">加工设备</font><br><font opacity=\"0.35\">────────────────────────</font><br><strong>装罐台：</strong>用于将符合有效 <a href=\"handbooksearch://meal recipe\">烹饪配方</a> 的生食材装入空罐头和玻璃罐。<br><br><strong>封罐机：</strong>在高压灭菌前用罐盖密封填满的罐头。<br><br><strong>高压灭菌锅：</strong>通过加热、水和压力处理密封罐头，制成保鲜罐头。<br><br><strong>罐装锅：</strong>通过持续加热和水处理密封玻璃罐。有多种金属变体可用。<br><br><font size=\"19\" weight=\"bold\">新增配方</font><br><font opacity=\"0.35\">────────────────────────</font><br>有关本模组引入的新食物配方（包括午餐肉），请参阅 <a href=\"handbook://ithaniacannedgoods:recipeadditions\">配方增补</a> 指南。<br>",
+
+    "ithaniacannedgoods:cans-title": "罐头状态与保鲜流程",
+    "ithaniacannedgoods:cans-text": "<font size=\"24\" weight=\"bold\">罐头状态与保鲜流程</font><br><font opacity=\"0.75\">了解罐头的完整生命周期。</font><br><br>罐头在食物完全保鲜前会经历多个阶段。每个状态对应准备、密封或处理中的一个步骤。在罐头完成高压处理之前，其内容物仍为生食，会继续腐败。<br><br><font size=\"19\" weight=\"bold\">钢制罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>钢制罐头由 2 块钢锭在铁砧上锻造而成。一份配方可制作 8 个钢制罐头。这是结构基础容器，未处理状态下不能安全储存食物。<br><br><font size=\"19\" weight=\"bold\">空罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>钢制罐头使用前必须经过保护性镀锡处理。将其放入装有稀释锡石溶液的密封桶中完成。每个罐头需要 1 升溶液，桶密封后需 24 小时处理完成。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：每个罐头所需的溶液量可在模组配置文件中通过 ConfigLib 调整。服主可自定义此值以更好地适应世界平衡。</i></font><br><br>处理完成后，钢制罐头变为空罐头。空罐头只能在装罐台使用，能够盛装原版料理所需的生食材。<br><br><font size=\"19\" weight=\"bold\">填满的罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>空罐头在装罐台填装后成为填满的罐头，会显示存储的食材列表。此阶段食材仍为生食，若不进一步处理会继续腐败。<br><br><font size=\"19\" weight=\"bold\">密封罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>填满的罐头必须在封罐机中用盖子密封，成为密封罐头。密封是保鲜的必要步骤，但仅密封无法保鲜，内部食材仍为生食，会持续腐败直到完成高压处理。<br><br><font size=\"19\" weight=\"bold\">保鲜罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>密封罐头必须在高压灭菌锅中完成保鲜处理。经过高压烹饪后，罐头成为保鲜罐头——最终状态。<br><br>保鲜罐头大幅减少腐败。原版密封罐约可延长食物保质期至正常腐烂速度的 10 倍，而保鲜罐头可达 25 倍——保鲜效果是密封罐的两倍以上。非常适合长期储存、旅行和应急物资。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：保鲜罐头的腐败倍数可在模组配置文件中通过 ConfigLib 调整。服主可自定义此值以更好地适应世界平衡。</i></font><br><br><font size=\"19\" weight=\"bold\">打开的罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>用开罐器打开的保鲜罐头变为打开的罐头。有两种方式食用其中的食物：<br><br><strong>直接食用：</strong> 在快捷栏选中打开的罐头，长按 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font>。操作方式与用碗进食相同，区别是直接从罐头里吃。<br><br><strong>用碗盛取：</strong> 类似于用碗从瓦罐中取用食物，打开的罐头也可以这样做。将打开的罐头放在地上、桌子或架子上，手持碗右键点击即可取出一份。<br><br>当所有份数被食用或取出后，打开的罐头会自动变回空罐头，可重新填装和重复使用。<br><br><font size=\"12\" opacity=\"0.6\"><i>注意：25 倍保鲜加成仅在罐头密封时生效。一旦打开，食物恢复正常的腐烂速度，应及时食用。</i></font><br><br><font size=\"19\" weight=\"bold\">腐坏罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br><strong>警告：</strong>填满的罐头和密封罐头仅经过部分处理，其内容物仍为生食，会以正常速度腐败。如果放置过久，内容物会腐烂并污染罐头，产生腐坏罐头。<br><br>污染会永久损坏容器，使其不再适合储存食物。腐坏罐头必须丢弃或拆解为钢料，无法再用于保鲜。<br><br><font size=\"19\" weight=\"bold\">热罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>保鲜罐头从高压灭菌锅中取出时温度很高。使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 安全处理。详见 <a href=\"handbook://ithaniacannedgoods:hotsystem\">热系统</a> 指南。<br>",
+
+    "ithaniacannedgoods:tinning-title": "镀锡工艺——钢制罐头与罐盖",
+    "ithaniacannedgoods:tinning-text": "<font size=\"24\" weight=\"bold\">镀锡工艺——钢制罐头与罐盖</font><br><font opacity=\"0.75\">为钢制部件做好食品级安全预处理。</font><br><br>钢制罐头或钢制罐盖用于食品保鲜前，必须经过镀锡处理。镀锡可防止污染，并使金属适合长期接触食物。此过程通过将物品放入装有稀释锡石溶液的密封桶中完成。<br><br><font size=\"19\" weight=\"bold\">钢制罐头镀锡</font><br><font opacity=\"0.35\">────────────────────────</font><br>每个钢制罐头在密封过程中需要 1 升稀释锡石溶液。钢制罐头一组最多 16 个，满组密封需要 16 升溶液。一个桶一次最多处理 16 个钢制罐头，前提是有足够的溶液。<br><br>密封后，桶必须保持关闭 24 游戏小时。处理完成后，钢制罐头转换为空罐头。产出的空罐头数量等于最初放入桶中的钢制罐头数量。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：每个钢制罐头所需的稀释锡石溶液量可在模组配置文件中通过 ConfigLib 调整。服主可自定义此值以更好地适应世界平衡。</i></font><br><br><font size=\"19\" weight=\"bold\">钢制罐盖镀锡</font><br><font opacity=\"0.35\">────────────────────────</font><br>每个钢制罐盖在密封过程中需要 0.1 升稀释锡石溶液。钢制罐盖一组最多 32 个，满组密封需要 3.2 升溶液。一个桶一次最多处理 32 个钢制罐盖，前提是有足够的溶液。<br><br>密封后，桶必须保持关闭 24 游戏小时。处理完成后，钢制罐盖转换为罐盖。产出的罐盖数量等于最初放入桶中的钢制罐盖数量。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：每个钢制罐盖所需的稀释锡石溶液量可在模组配置文件中通过 ConfigLib 调整。服主可自定义此值以更好地适应世界平衡。</i></font><br>",
+
+    "ithaniacannedgoods:canningbench-title": "填装玻璃罐与罐头",
+    "ithaniacannedgoods:canningbench-text": "<font size=\"24\" weight=\"bold\">装罐台</font><br><font opacity=\"0.75\">用于将料理食材装入空罐头和玻璃罐。</font><br><br>装罐台是金属罐头和玻璃罐装罐流程的第一个主动阶段。它将空罐头或玻璃罐与符合原版有效料理配方的生食材结合。<br><br><font size=\"19\" weight=\"bold\">槽位布局</font><br><font opacity=\"0.35\">────────────────────────</font><br>装罐台有 5 个输入槽和 1 个输出槽。<br><br><strong>容器槽：</strong>接受空罐头或空玻璃罐。此槽不可放置其他物品。<br><strong>食材槽（4 个）：</strong>接受对应原版有效料理组合的生食材。<br><strong>输出槽：</strong>处理完成后产出填满的罐头或填满的罐。<br><br><font size=\"19\" weight=\"bold\">食材要求</font><br><font opacity=\"0.35\">────────────────────────</font><br>装罐台遵循与原版料理相同的食材规则。食材必须匹配有效的料理类型和正确比例。界面顶部会显示文字提示，指示食材比例是否正确以及是否匹配原版料理。<br><br>有关有效的食材组合和比例，请参考原版手册中的 <a href=\"handbooksearch://meal recipe\">烹饪配方</a>。<br><br><font size=\"19\" weight=\"bold\">果酱料理</font><br><font opacity=\"0.35\">────────────────────────</font><br>果酱料理只能装入玻璃罐，不能与空罐头一起使用。如果你想保存果酱料理，请确保容器槽中放入的是玻璃罐。<br><br><font size=\"19\" weight=\"bold\">填装容器</font><br><font opacity=\"0.35\">────────────────────────</font><br>放入有效食材和至少一个空罐头或玻璃罐后，长按右键装罐台开始填装。会出现进度条。约 4 秒后处理完成，输出槽生成填满的罐头或填满的罐。<br><br>如果食材比例不正确，装罐台不会产出结果。请确保配方匹配原版有效料理后再尝试填装。<br>",
+
+    "ithaniacannedgoods:canningpress-title": "罐头密封与压合工艺",
+    "ithaniacannedgoods:canningpress-text": "<font size=\"24\" weight=\"bold\">封罐机</font><br><font opacity=\"0.75\">用于在高压处理前密封填满的罐头。</font><br><br>封罐机是罐装流程的第二阶段。它将处理好的罐盖安装到填满的罐头上，制成可进行高压烹饪的密封罐头。<br><br><font size=\"19\" weight=\"bold\">槽位布局</font><br><font opacity=\"0.35\">────────────────────────</font><br>封罐机有 3 个槽位：2 个输入槽和 1 个输出槽。<br><br><strong>左上输入：</strong>仅接受罐盖。<br><strong>左下输入：</strong>仅接受填满的罐头。<br><strong>右侧输出：</strong>压合完成后产出密封罐头。<br><br><font size=\"19\" weight=\"bold\">使用封罐机</font><br><font opacity=\"0.35\">────────────────────────</font><br>封罐机有两个交互点。底盘用于打开 GUI 放置物品，上部手柄用于操作机器。<br><br><strong>快速装入填满的罐头：</strong>在快捷栏选中填满的罐头，右键点击底盘。如果填满罐头槽为空，罐头会直接插入而不打开 GUI。如果槽位已被占用，则会正常打开 GUI。<br><br><strong>操作封罐机——长按右键：</strong>放入填满的罐头和罐盖后，长按 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 手柄。螺杆会随着动画下降。提前松开会取消操作。当螺杆到达底部，处理完成，输出槽生成密封罐头。再次右键手柄将其升起。<br><br><strong>操作封罐机——潜行 + 右键：</strong>另一种方式，按住<hk>sneak</hk>并点按一次手柄。封罐机将自动完成整个动画，无需长按。螺杆到达底部后处理完成，输出槽生成密封罐头。再次右键手柄将其升起。<br><br><font size=\"19\" weight=\"bold\">重要</font><br><font opacity=\"0.35\">────────────────────────</font><br>密封罐头尚未保鲜。其内容物仍为生食，会以正常速度腐烂。如果不处理，密封罐头最终会腐烂变成腐坏罐头。密封罐头必须经过高压烹饪才能完成保鲜。<br><br><font size=\"19\" weight=\"bold\">罐盖</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐盖分多个阶段制作。<br><br><strong>钢制罐盖：</strong>在合成格中用锯子加工钢条制成。1 根钢条产出 32 个钢制罐盖。钢条是原版物品，在铁砧上锻造。<br><br>钢制罐盖必须经过处理才能用于密封。<br><br><strong>罐盖：</strong>将钢制罐盖放入装有稀释锡石溶液的密封桶中，每个盖子需要 0.1 升溶液，密封 24 小时后完成，成为罐盖。<br><br>只有罐盖可以放入封罐机。未经处理的钢制罐盖无法密封。<br>",
+
+    "ithaniacannedgoods:pressurecooker-title": "高压烹饪",
+    "ithaniacannedgoods:pressurecooker-text": "<font size=\"24\" weight=\"bold\">高压灭菌锅</font><br><font opacity=\"0.75\">用于通过加热和压力保鲜密封罐头。</font><br><br>高压灭菌锅是罐装流程的最后阶段。它对密封罐头施加持续的高温和高压，将其转化为完全保鲜的料理罐头。<br><br><font size=\"19\" weight=\"bold\">槽位布局</font><br><font opacity=\"0.35\">────────────────────────</font><br>高压灭菌锅共有 6 个槽位。<br><br><strong>顶部 4 个输入槽：</strong>仅接受密封罐头。每个槽位放一个罐头，一次最多处理 4 个。<br><strong>左下槽：</strong>接受木柴。此槽带有火焰图标，用于产生热量。<br><strong>右下槽：</strong>接受水。此槽带有水滴图标，提供高压烹饪所需的液体。<br><br><font size=\"19\" weight=\"bold\">水量要求</font><br><font opacity=\"0.35\">────────────────────────</font><br>每个密封罐头需要 1 升水进行处理。由于有 4 个罐头槽，高压灭菌锅一次最多可储存 4 升水。保鲜开始前必须有足够的水量。<br><br><font size=\"19\" weight=\"bold\">温度与烹饪时间</font><br><font opacity=\"0.35\">────────────────────────</font><br>灭菌锅必须至少达到 250°C 才能开始保鲜。此时也必须存在所需的水量。<br><br>烹饪过程需要 90 秒。温度必须保持在 250°C 或以上，且所需水量必须在整个过程中保持不变。如果温度降至 250°C 以下或水量减少，保鲜过程将停止并重置。只有当正确的温度和所需水量都恢复后，处理才会继续。<br><br><font size=\"19\" weight=\"bold\">保鲜罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>完成后，密封罐头转变为保鲜料理罐头。这些罐头现在包含基于装罐台原始食材完全煮熟的料理。<br><br>保鲜罐头会显示料理类型和营养价值。会出现类似于原版密封瓦罐的标签，标明料理类别。<br><br>保鲜罐头显著延长食物保质期。原版密封瓦罐约可延长至正常腐烂速度的 10 倍，而保鲜罐头可达 25 倍，提供近一倍的长期储存潜力。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：保鲜罐头的腐败倍数可在模组配置文件中通过 ConfigLib 调整。服主可自定义此值以更好地适应世界平衡。</i></font><br>",
+
+    "ithaniacannedgoods:canopener-title": "取用保鲜食物——罐头",
+    "ithaniacannedgoods:canopener-text": "<font size=\"24\" weight=\"bold\">开罐器</font><br><font opacity=\"0.75\">打开保鲜料理罐头的必备工具。</font><br><br>开罐器是唯一能够打开保鲜料理罐头的工具。没有它，保鲜罐头无法打开或食用。<br><br><font size=\"19\" weight=\"bold\">使用方法</font><br><font opacity=\"0.35\">────────────────────────</font><br>打开保鲜罐头：将开罐器放在副手，快捷栏中选中保鲜罐头。<br><br>按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 手持保鲜罐头。约 3 秒后罐头打开。<br><br><font size=\"19\" weight=\"bold\">合成</font><br><font opacity=\"0.35\">────────────────────────</font><br>开罐器由开罐器头与木棍在合成格中合成。<br><br><strong>开罐器头：</strong>用 1 块钢锭在铁砧上锻造。开罐器头必须完成锻造流程后才能组装成可用的工具。<br><br><font size=\"19\" weight=\"bold\">耐久度</font><br><font opacity=\"0.35\">────────────────────────</font><br>开罐器耐久度为 50。每打开一个罐头消耗 1 点耐久。因此一个开罐器可打开 50 个罐头，之后损坏需更换。<br><br><font size=\"19\" weight=\"bold\">打开结果</font><br><font opacity=\"0.35\">────────────────────────</font><br>打开后，罐头外观会改变，显示其内容物和破裂的盖子。内部的料理现在有两种方式食用：<br><br><strong>直接食用：</strong>在快捷栏选中打开的罐头，长按 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font>。操作方式与用碗进食相同，区别是直接从罐头里吃。<br><br><strong>用碗盛取：</strong>类似于用碗从瓦罐中取用食物，打开的罐头也可以这样做。将打开的罐头放在地上、桌子或架子上，手持碗右键点击即可取出一份。<br><br>当所有份数被食用或取出后，罐头会自动变回空罐头，可在装罐台重新填装。<br><br><font size=\"12\" opacity=\"0.6\"><i>注意：25 倍保鲜加成仅在罐头密封时生效。一旦打开，食物恢复正常的腐烂速度，应及时食用。</i></font><br>",
+
+    "ithaniacannedgoods:recipeadditions-title": "新增配方",
+    "ithaniacannedgoods:recipeadditions-text": "<font size=\"24\" weight=\"bold\">新增配方</font><br><font opacity=\"0.75\">由伊塔尼亚罐头模组引入的新食物配方。</font><br><br><font size=\"19\" weight=\"bold\">午餐肉</font><br><font opacity=\"0.35\">────────────────────────</font><br>午餐肉是随伊塔尼亚罐头系统引入的肉制品。可以使用传统烹饪锅制作，也可以通过罐头工艺制作。通过罐头工艺制作的午餐肉比标准烹饪锅版本 <strong>多出 1.5 倍保质期</strong>。<br><br><a href=\"handbook://handbook-mealrecipe-spam\">午餐肉配方</a><br>",
+
+    "ithaniacannedgoods:troubleshooting-title": "问题排查",
+    "ithaniacannedgoods:troubleshooting-text": "<font size=\"24\" weight=\"bold\">问题排查</font><br><font opacity=\"0.75\">常见问题及解决方法。</font><br><br><font size=\"19\" weight=\"bold\">装罐台无法产出填满的罐头或罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 确保空罐头或玻璃罐已放入正确槽位。<br>- 核实四个食材槽都已放入有效的生食材。<br>- 确认食材比例符合原版游戏的有效料理。<br>- 参考 <a href=\"handbooksearch://meal recipe\">烹饪配方</a> 获取正确的组合和比例。<br><br><font size=\"19\" weight=\"bold\">封罐机无法密封罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 确保左下槽放入的是填满的罐头。<br>- 确保左上槽放入的是罐盖（不是钢制罐盖）。<br>- 操作方法：长按右键手柄直至螺杆完全下降，或者潜行 + 右键一次让其自动运行。<br>- 当螺杆到达底部，处理完成，输出槽生成密封罐头。<br>- 开始下一次操作前，再次右键手柄将其升起。<br><br><font size=\"19\" weight=\"bold\">我无法给玻璃罐盖上盖子</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 盖子不是通过封罐机安装的，而是直接安装到放在世界中的罐子上。<br>- 将罐子放在地上或桌子上。<br>- 在快捷栏选中要使用的盖子。<br>- 按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 安装盖子。<br>- 如果想更换盖子，先用空快捷栏以相同方式取下，再安装新的。<br>- 盖子盖上后，右键点击罐子即可拾起。<br><br><font size=\"19\" weight=\"bold\">我的密封罐头变质了</font><br><font opacity=\"0.35\">────────────────────────</font><br>密封罐头尚未保鲜，内容物仍为生食，除非在高压灭菌锅中处理，否则会以正常速度腐烂。放置过久内容物会腐烂，罐头永久损坏。<br><br><font size=\"19\" weight=\"bold\">高压灭菌锅无法为我的罐头保鲜</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 确保顶部槽位只放入密封罐头。<br>- 每个罐头至少添加 1 升水（总量最多 4 升）。<br>- 燃料槽放入木柴。<br>- 温度必须达到并保持在 250°C 或以上。<br>- 灭菌锅必须维持 250°C 满 90 秒才能完成保鲜。<br><br><font size=\"19\" weight=\"bold\">罐装锅无法为我的罐子保鲜</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 确保顶部槽位只放入密封玻璃罐。<br>- 每个罐子至少添加 1 升水（总量最多 4 升）。<br>- 燃料槽放入木柴。<br>- 温度必须达到并保持在 120°C 或以上。<br>- 罐装锅必须维持 120°C 满 90 秒才能完成保鲜。<br><br><font size=\"19\" weight=\"bold\">我的保鲜罐头变质很快</font><br><font opacity=\"0.35\">────────────────────────</font><br>25 倍保鲜加成仅在罐头密封时生效。一旦打开，食物恢复正常的腐烂速度。<br><br><font size=\"19\" weight=\"bold\">我的保鲜罐变质速度超出预期</font><br><font opacity=\"0.35\">────────────────────────</font><br>检查密封时使用了哪种盖子。木盖约 10 倍，蜂蜡木盖约 12 倍，金属盖约 15 倍。如果需要更长的储存时间，下次尝试用不同的盖子密封，或考虑改用金属罐头系统以获得 25 倍完全速率。<br><br><font size=\"19\" weight=\"bold\">我无法打开罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 将开罐器放在副手。<br>- 在快捷栏选中保鲜罐头。<br>- 按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 约 3 秒。<br>- 确保开罐器仍有剩余耐久度。<br><br><font size=\"19\" weight=\"bold\">我无法打开玻璃罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>- 玻璃罐必须冷却到 40°C 以下才能打开。悬停查看罐子温度，等待其充分冷却。<br>- 打开时，将罐子放在地上、桌子或架子上。<br>- 按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 打开盖子。<br><br><font size=\"19\" weight=\"bold\">我打开了罐头，怎么吃？</font><br><font opacity=\"0.35\">────────────────────────</font><br>- <strong>直接食用：</strong>在快捷栏选中打开的罐头，长按右键。操作方式与用碗进食相同，区别是直接从罐头里吃。<br>- <strong>用碗盛取：</strong>将打开的罐头放在地上、桌子或架子上，手持碗右键点击即可取出一份，就像瓦罐一样。<br>- 所有份数吃完后，罐头会自动变回空罐头。<br><br><font size=\"19\" weight=\"bold\">我打开了罐子，怎么吃？</font><br><font opacity=\"0.35\">────────────────────────</font><br>- <strong>直接食用：</strong>在快捷栏选中打开的罐子，长按右键。操作方式与用碗进食相同，区别是直接从罐子里吃。<br>- <strong>用碗盛取：</strong>将打开的罐子放在地上、桌子或架子上，手持碗右键点击即可取出一份，就像瓦罐一样。<br>- 所有份数吃完后，罐子会自动变回空罐。<br><br><font size=\"19\" weight=\"bold\">我的玻璃罐内容物腐烂了，怎么清洗？</font><br><font opacity=\"0.35\">────────────────────────</font><br>与金属罐头不同，玻璃罐在内容物腐烂后可以清洗并重复使用。<br>- 如果罐子有盖子，先取下：将罐子放下，用空快捷栏配合<hk>sneak</hk>和 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 取下盖子。<br>- 取下盖子后，将罐子扔进水中。腐烂物会被冲走，剩下干净的空罐，可重新填装。<br><br><font size=\"19\" weight=\"bold\">我的玻璃罐碎了</font><br><font opacity=\"0.35\">────────────────────────</font><br>掉落的滚烫玻璃罐有 15% 的几率破碎，且无法恢复。处理刚加工完的罐子时请始终使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a>。原版钳子不是安全的替代品——只有罐装钳能完全消除风险。切勿将滚烫的玻璃罐丢入水中，热冲击会使其立即破碎。<br><br><font size=\"19\" weight=\"bold\">为什么我的罐头变成了腐坏罐头？</font><br><font opacity=\"0.35\">────────────────────────</font><br>填满的罐头和密封罐头如果没有及时处理就会变质。内容物完全腐烂后，容器会被永久污染。腐坏罐头无法再用于食品保鲜。<br>",
+
+    "ithaniacannedgoods:glassjars-title": "玻璃罐状态与保鲜流程",
+    "ithaniacannedgoods:glassjars-text": "<font size=\"24\" weight=\"bold\">玻璃罐状态与保鲜流程</font><br><font opacity=\"0.75\">了解玻璃罐的完整生命周期。</font><br><br>玻璃罐在食物完全保鲜前会经历多个阶段。每个状态对应准备、密封或处理中的一个步骤。在罐子于罐装锅中完全处理之前，其内容物仍为生食，会继续腐败。<br><br><font size=\"19\" weight=\"bold\">制作玻璃罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>有两种基础罐子可以直接制作。将锤子、凿子和一块普通玻璃块或石英玻璃块放入合成格，即可获得 4 个对应类型的玻璃罐。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：每次制作产出的罐子数量可在模组配置文件中通过 ConfigLib 调整。服主可调整此值以更好地适应世界平衡。</i></font><br><br><font size=\"19\" weight=\"bold\">罐子变体</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐共有 12 种颜色变体。除了两种基础类型，其余 10 种可通过木桶加工获得：<br><br><strong>染色变体（7 种）：</strong>将普通玻璃罐放入密封木桶，加入 2 升所需染料颜色。48 小时后罐子变为该颜色。涵盖红色、绿色、蓝色、紫色、橙色、粉色和黄色。<br><br><strong>复古：</strong>将普通玻璃罐放入密封木桶，加入 2 升稀释锡石溶液。48 小时后变为复古玻璃罐。<br><br><strong>烟熏：</strong>将石英玻璃罐放入密封木桶，加入 2 升灰色染料。48 小时后变为烟熏玻璃罐。<br><br><strong>棕色：</strong>将普通玻璃罐放入密封木桶，加入 2 升弱单宁。48 小时后变为棕色玻璃罐。<br><br>所有变体功能相同，仅外观不同。<br><br><font size=\"19\" weight=\"bold\">盖子类型与保鲜等级</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐保鲜效果取决于使用哪种盖子密封。<br><br><strong>木盖（约 10 倍）：</strong>提供约 10 倍于正常腐烂速度的保鲜效果——与原版密封瓦罐相当。<br><br><strong>蜂蜡木盖（约 12 倍）：</strong>添加蜂蜡作为二次密封可将保鲜提升至约 12 倍。<br><br><strong>金属盖（约 15 倍）：</strong>将保鲜提升至约 15 倍于正常腐烂速度，但仍低于保鲜罐头。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：所有保鲜倍率值均可通过 ConfigLib 在模组配置文件中调整。服主可调整这些值以更好地适应世界平衡。</i></font><br><br><font size=\"19\" weight=\"bold\">填满的罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>在装罐台填装的空罐变为填满的罐。会显示存储的食材列表。此阶段食材仍为生食，若不进一步处理会继续腐败。<br><br><font size=\"19\" weight=\"bold\">盖子的安装与拆卸</font><br><font opacity=\"0.35\">────────────────────────</font><br>盖子直接安装到放在世界中的罐子上，而不是通过封罐机。将罐子放在地上，然后在快捷栏选中所需盖子，按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 进行密封。如果改变主意，可以用空快捷栏以相同方式取下盖子。密封后，右键点击罐子即可拾起。<br><br><font size=\"19\" weight=\"bold\">密封罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>装有盖子的填满的罐成为密封罐。密封是罐子处理前的必要步骤，但仅靠盖子并不能保鲜内容物。内部食材仍为生食，直到罐子经过罐装锅处理才会停止腐败。<br><br><font size=\"19\" weight=\"bold\">保鲜罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>密封罐必须在罐装锅中处理以完成保鲜。完成后，罐子成为保鲜罐——最终状态。<br><br>保鲜罐的保鲜时长取决于所用盖子。木盖约 10 倍，蜂蜡木盖约 12 倍，金属盖约 15 倍。详见上文盖子等级说明。<br><br><font size=\"12\" opacity=\"0.6\"><i>*注意：所有保鲜倍率值均可通过 ConfigLib 在模组配置文件中调整。服主可自定义这些值以更好地适应世界平衡。</i></font><br><br><font size=\"19\" weight=\"bold\">打开的罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>冷却到 40°C 以下的保鲜罐可以通过按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 打开。打开后，内容物有两种食用方式：<br><br><strong>直接食用：</strong>在快捷栏选中打开的罐子，长按 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font>。操作方式与用碗进食相同，区别是直接从罐子里吃。<br><br><strong>用碗盛取：</strong>类似于用碗从瓦罐中取用食物，打开的罐子也可以这样做。将打开的罐子放在地上、桌子或架子上，手持碗右键点击即可取出一份。<br><br>所有份数被食用或取出后，罐子会自动变回空罐，准备在装罐台重新填装和重复使用。<br><br><font size=\"12\" opacity=\"0.6\"><i>注意：保鲜加成仅在罐子密封时生效。一旦打开，食物恢复正常的腐烂速度，应及时食用。</i></font><br><br><font size=\"19\" weight=\"bold\">腐烂罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>如果填满的罐、密封罐或保鲜罐放置过久未处理或食用，其内容物会变质。一旦腐烂度达到 100%，内容物腐烂，不再可食用。<br><br>与金属罐头不同，装有腐烂内容物的罐子不会永久损坏，可以清洗并重复使用。为此，先取下盖子（如果有），然后将罐子扔进水中。腐烂物会被冲走，留下干净的空罐，可重新填装。<br><br><font size=\"19\" weight=\"bold\">热罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>保鲜罐从罐装锅中取出时温度很高。使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 安全处理，并记住罐子必须冷却到 40°C 以下才能打开。详见 <a href=\"handbook://ithaniacannedgoods:hotsystem\">热系统</a> 指南。<br>",
+
+    "ithaniacannedgoods:canningpot-title": "水浴罐装",
+    "ithaniacannedgoods:canningpot-text": "<font size=\"24\" weight=\"bold\">罐装锅</font><br><font opacity=\"0.75\">用于通过热处理加工密封玻璃罐。</font><br><br>罐装锅是玻璃罐的加工设备。其工作原理类似于高压灭菌锅，但不需要加压——只需持续的热量和水分。<br><br><font size=\"19\" weight=\"bold\">金属变体</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐装锅有多种金属变体：铜、锡青铜、铋青铜、黑青铜、金、银、铁、陨铁和钢。所有变体功能相同，仅材质和外观不同。<br><br><font size=\"19\" weight=\"bold\">槽位布局</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐装锅共有 6 个槽位。<br><br><strong>顶部 4 个输入槽：</strong>仅接受密封玻璃罐。每个槽位放一个罐子，一次最多处理 4 个。<br><strong>左下槽：</strong>接受木柴。这是燃料槽，带有火焰图标。<br><strong>右下槽：</strong>接受水。此槽带有水滴图标。<br><br><font size=\"19\" weight=\"bold\">水量要求</font><br><font opacity=\"0.35\">────────────────────────</font><br>每个密封玻璃罐需要 1 升水进行处理。由于有 4 个罐子槽，锅一次最多可容纳 4 升水。保鲜开始前必须有正确的水量。<br><br><font size=\"19\" weight=\"bold\">温度与烹饪时间</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐装锅必须至少达到 120°C 才能开始保鲜。此时也必须存在所需的水量。<br><br>处理过程需要 90 秒。温度和水量必须在整个过程中保持稳定——如果温度降至 120°C 以下或水量减少，过程将停止并重置。一旦两个条件再次满足，它会恢复。<br><br><font size=\"19\" weight=\"bold\">重要：热罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐从罐装锅中取出时非常热。始终使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 安全处理。在没有合适钳子的情况下拿起热罐有 15% 的几率掉落并破碎。裸手拿起热罐会导致掉落，并有 15% 几率破碎。详见 <a href=\"handbook://ithaniacannedgoods:hotsystem\">热系统</a> 指南。<br>",
+
+    "ithaniacannedgoods:canningtongs-title": "罐装钳",
+    "ithaniacannedgoods:canningtongs-text": "<font size=\"24\" weight=\"bold\">罐装钳</font><br><font opacity=\"0.75\">安全处理热罐头和玻璃罐的必备工具。</font><br><br>罐装钳是专门用于从高压灭菌锅或罐装锅中取出和处理热罐头及玻璃罐的工具。处理热容器时使用错误的工具——或根本不使用工具——会使你和容器都面临风险。<br><br><font size=\"19\" weight=\"bold\">金属变体</font><br><font opacity=\"0.35\">────────────────────────</font><br>罐装钳与罐装锅具有相同的金属变体：铜、锡青铜、铋青铜、黑青铜、金、银、铁、陨铁和钢。所有变体功能相同。<br><br><font size=\"19\" weight=\"bold\">使用方法</font><br><font opacity=\"0.35\">────────────────────────</font><br>在拿起或与任何热罐头或玻璃罐交互之前，将罐装钳装备在副手。手持钳子时，热容器可以安全处理，无掉落或破碎风险。<br><br><font size=\"19\" weight=\"bold\">玻璃罐——处理规则</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐在热的时候很不宽容。以下是每种情况的结果：<br><br><strong>未装备钳子：</strong>当罐子掉落时，<strong>有 15% 的几率破碎</strong>，永久摧毁罐子及其内容物。<br><br><strong>装备原版钳子：</strong>标准的原版钳子并非为罐装工作设计。<strong>有 15% 的几率罐子滑落、掉落并破碎</strong>。<br><br><strong>装备罐装钳：</strong>安全处理，无掉落或破碎风险。<br><br><font size=\"19\" weight=\"bold\">罐头——处理规则</font><br><font opacity=\"0.35\">────────────────────────</font><br>来自高压灭菌锅的热金属罐头也受热系统影响。建议使用罐装钳处理它们，不过罐头没有玻璃罐那样的破碎风险。<br><br><font size=\"19\" weight=\"bold\">水警告</font><br><font opacity=\"0.35\">────────────────────────</font><br><strong>警告：</strong>切勿将热玻璃罐放入水中。热冲击会使其瞬间破碎，摧毁罐子和里面的一切。处理刚加工完的罐子时请注意水源。<br>",
+
+    "ithaniacannedgoods:hotsystem-title": "热系统——温度与处理",
+    "ithaniacannedgoods:hotsystem-text": "<font size=\"24\" weight=\"bold\">热系统——温度与处理</font><br><font opacity=\"0.75\">热量如何影响加工后的罐头和玻璃罐。</font><br><br>当罐头或玻璃罐完成加工时，它会以高温从锅中取出。热量记录在容器本身上，并决定了在冷却之前如何安全地处理它。<br><br><font size=\"19\" weight=\"bold\">工作原理</font><br><font opacity=\"0.35\">────────────────────────</font><br>一旦从高压灭菌锅或罐装锅中取出，容器被认为是热的，直到随时间自然冷却。在此期间，你如何处理它很重要——尤其是对于玻璃罐。<br><br><font size=\"19\" weight=\"bold\">处理热罐头</font><br><font opacity=\"0.35\">────────────────────────</font><br>热金属罐头可以使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 安全处理。它们不会破碎，但从高压灭菌锅中取出罐头时最好准备好钳子。<br><br><font size=\"19\" weight=\"bold\">处理热玻璃罐</font><br><font opacity=\"0.35\">────────────────────────</font><br>玻璃罐在热的时候需要合适的 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 才能安全处理。操作不当会产生实际后果：<br><br><strong>无钳子：</strong>当罐子掉落时，<strong>有 15% 的几率破碎</strong>，永久摧毁罐子及其内容物。<br><br><strong>使用原版钳子：</strong>仍然不安全。原版钳子不是为此而造的，<strong>有 15% 的几率罐子滑落、掉落并破碎</strong>。<br><br><strong>使用罐装钳：</strong>安全。无掉落或破碎风险。<br><br><strong>接触水：</strong>将热玻璃罐掉落或扔入水中会导致立即的热冲击。罐子会破碎，内容物丢失。处理热罐时远离水源。<br><br><font size=\"19\" weight=\"bold\">冷却</font><br><font opacity=\"0.35\">────────────────────────</font><br>容器离开热源后会随时间自行冷却。一旦完全冷却，就可以正常拿起和处理。如果你手边没有罐装钳，等待冷却总是一个选择。<br><br><font size=\"12\" opacity=\"0.6\"><i>提示：在开始加工批次之前准备好罐装钳，这样在罐子或罐头出来时就能随手拿到。</i></font><br>",
+
+   
+    "ithaniacannedgoods:jaropener-title": "取用保鲜食物——玻璃罐",
+    "ithaniacannedgoods:jaropener-text": "<font size=\"24\" weight=\"bold\">取用保鲜食物——玻璃罐</font><br><font opacity=\"0.75\">如何打开和食用保鲜玻璃罐中的食物。</font><br><br>与需要开罐器的金属罐头不同，玻璃罐用手即可打开——但必须等到它们冷却到足够安全的温度。试图在罐子仍然热的时候打开是不可能的，因为内容物尚未完全稳定，密封也不安全。<br><br><font size=\"19\" weight=\"bold\">冷却要求</font><br><font opacity=\"0.35\">────────────────────────</font><br>在打开保鲜玻璃罐之前，它必须冷却到 <strong>40°C</strong> 以下。一旦低于此阈值，罐子即可安全打开。你可以通过悬停查看罐子的当前温度。<br><br><font size=\"19\" weight=\"bold\">高温处理</font><br><font opacity=\"0.35\">────────────────────────</font><br>当热罐子掉落时，<strong>有 15% 的几率破碎</strong>，永久摧毁罐子及其内容物。使用原版钳子也不是安全的替代方案——使用错误的钳子时，<strong>有 15% 的几率罐子滑落、掉落并破碎</strong>。始终使用 <a href=\"handbook://ithaniacannedgoods:canningtongs\">罐装钳</a> 安全处理热罐子。<br><br><font size=\"19\" weight=\"bold\">打开方法</font><br><font opacity=\"0.35\">────────────────────────</font><br>一旦罐子冷却到 40°C 以下，将其放在地上、桌子或架子上。然后按住<hk>sneak</hk>并 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font> 打开盖子。罐子将打开，其内容物变得可食用。<br><br><font size=\"19\" weight=\"bold\">打开结果</font><br><font opacity=\"0.35\">────────────────────────</font><br>打开后，罐子的外观会变为显示内容物且盖子已移除。内部的料理现在有两种食用方式：<br><br><strong>直接食用：</strong>在快捷栏选中打开的罐子，长按 <font size=\"20\"><icon name=\"rightmousebutton\"></icon></font>。操作方式与用碗进食相同，区别是直接从罐子里吃。<br><br><strong>用碗盛取：</strong>类似于用碗从瓦罐中取用食物，打开的罐子也可以这样做。只需将打开的罐子放在地上、桌子或架子上，然后手持碗右键点击即可取出一份。<br><br>所有份数被食用或取出后，罐子会自动变回空罐，准备在装罐台重新填装和重复使用。<br><br><font size=\"12\" opacity=\"0.6\"><i>注意：保鲜加成仅在罐子密封时生效。一旦打开，食物恢复正常的腐烂速度，应及时食用。</i></font><br>",
+
+    //Canning Pot
+    "block-canningpot-copper":       "铜制罐装锅",
+    "block-canningpot-tinbronze":    "锡铜制罐装锅",
+    "block-canningpot-bismuthbronze":"铋铜制罐装锅",
+    "block-canningpot-blackbronze":  "黑铜制罐装锅",
+    "block-canningpot-gold":         "金制罐装锅",
+    "block-canningpot-silver":       "银制罐装锅",
+    "block-canningpot-iron":         "铁制罐装锅",
+    "block-canningpot-meteoriciron": "陨铁制罐装锅",
+    "block-canningpot-steel":        "钢制罐装锅",
+    "blockdesc-canningpot":          "使用燃料和水保存玻璃罐。",
+
+    //Canning Jars — descriptions (wildcard fallback)
+    "blockdesc-jar-*-empty":         "空玻璃罐，可接受生食材",
+    "blockdesc-jar-*-filled":        "装有生食材的玻璃罐",
+    "blockdesc-jar-*-woodsealed":    "带有木盖的密封玻璃罐，可进行烹饪和保存",
+    "blockdesc-jar-*-metalsealed":   "带有金属盖的密封玻璃罐，可进行烹饪和保存",
+    "blockdesc-jar-*-woodpreserved": "带有木盖的保鲜玻璃罐",
+    "blockdesc-jar-*-metalpreserved":"带有金属盖的保鲜玻璃罐",
+    "blockdesc-jar-*-opened":        "一罐美味",
+
+    //Canning Jars — Plain
+    "block-jar-plain-empty":         "空玻璃罐（普通）",
+    "block-jar-plain-filled":        "填满的玻璃罐（普通）",
+    "block-jar-plain-woodsealed":    "密封玻璃罐（普通）",
+    "block-jar-plain-metalsealed":   "密封玻璃罐（普通）",
+    "block-jar-plain-woodpreserved": "保鲜玻璃罐（普通）",
+    "block-jar-plain-metalpreserved":"保鲜玻璃罐（普通）",
+    "block-jar-plain-opened":        "打开的玻璃罐（普通）",
+
+    //Canning Jars — Smoky
+    "block-jar-smoky-empty":         "空玻璃罐（烟熏）",
+    "block-jar-smoky-filled":        "填满的玻璃罐（烟熏）",
+    "block-jar-smoky-woodsealed":    "密封玻璃罐（烟熏）",
+    "block-jar-smoky-metalsealed":   "密封玻璃罐（烟熏）",
+    "block-jar-smoky-woodpreserved": "保鲜玻璃罐（烟熏）",
+    "block-jar-smoky-metalpreserved":"保鲜玻璃罐（烟熏）",
+    "block-jar-smoky-opened":        "打开的玻璃罐（烟熏）",
+
+    //Canning Jars — Blue
+    "block-jar-blue-empty":         "空玻璃罐（蓝色）",
+    "block-jar-blue-filled":        "填满的玻璃罐（蓝色）",
+    "block-jar-blue-woodsealed":    "密封玻璃罐（蓝色）",
+    "block-jar-blue-metalsealed":   "密封玻璃罐（蓝色）",
+    "block-jar-blue-woodpreserved": "保鲜玻璃罐（蓝色）",
+    "block-jar-blue-metalpreserved":"保鲜玻璃罐（蓝色）",
+    "block-jar-blue-opened":        "打开的玻璃罐（蓝色）",
+
+    //Canning Jars — Red
+    "block-jar-red-empty":         "空玻璃罐（红色）",
+    "block-jar-red-filled":        "填满的玻璃罐（红色）",
+    "block-jar-red-woodsealed":    "密封玻璃罐（红色）",
+    "block-jar-red-metalsealed":   "密封玻璃罐（红色）",
+    "block-jar-red-woodpreserved": "保鲜玻璃罐（红色）",
+    "block-jar-red-metalpreserved":"保鲜玻璃罐（红色）",
+    "block-jar-red-opened":        "打开的玻璃罐（红色）",
+
+    //Canning Jars — Green
+    "block-jar-green-empty":         "空玻璃罐（绿色）",
+    "block-jar-green-filled":        "填满的玻璃罐（绿色）",
+    "block-jar-green-woodsealed":    "密封玻璃罐（绿色）",
+    "block-jar-green-metalsealed":   "密封玻璃罐（绿色）",
+    "block-jar-green-woodpreserved": "保鲜玻璃罐（绿色）",
+    "block-jar-green-metalpreserved":"保鲜玻璃罐（绿色）",
+    "block-jar-green-opened":        "打开的玻璃罐（绿色）",
+
+    //Canning Jars — Yellow
+    "block-jar-yellow-empty":         "空玻璃罐（黄色）",
+    "block-jar-yellow-filled":        "填满的玻璃罐（黄色）",
+    "block-jar-yellow-woodsealed":    "密封玻璃罐（黄色）",
+    "block-jar-yellow-metalsealed":   "密封玻璃罐（黄色）",
+    "block-jar-yellow-woodpreserved": "保鲜玻璃罐（黄色）",
+    "block-jar-yellow-metalpreserved":"保鲜玻璃罐（黄色）",
+    "block-jar-yellow-opened":        "打开的玻璃罐（黄色）",
+
+    //Canning Jars — Violet
+    "block-jar-violet-empty":         "空玻璃罐（紫色）",
+    "block-jar-violet-filled":        "填满的玻璃罐（紫色）",
+    "block-jar-violet-woodsealed":    "密封玻璃罐（紫色）",
+    "block-jar-violet-metalsealed":   "密封玻璃罐（紫色）",
+    "block-jar-violet-woodpreserved": "保鲜玻璃罐（紫色）",
+    "block-jar-violet-metalpreserved":"保鲜玻璃罐（紫色）",
+    "block-jar-violet-opened":        "打开的玻璃罐（紫色）",
+
+    //Canning Jars — Pink
+    "block-jar-pink-empty":         "空玻璃罐（粉色）",
+    "block-jar-pink-filled":        "填满的玻璃罐（粉色）",
+    "block-jar-pink-woodsealed":    "密封玻璃罐（粉色）",
+    "block-jar-pink-metalsealed":   "密封玻璃罐（粉色）",
+    "block-jar-pink-woodpreserved": "保鲜玻璃罐（粉色）",
+    "block-jar-pink-metalpreserved":"保鲜玻璃罐（粉色）",
+    "block-jar-pink-opened":        "打开的玻璃罐（粉色）",
+
+    //Canning Jars — Brown
+    "block-jar-brown-empty":         "空玻璃罐（棕色）",
+    "block-jar-brown-filled":        "填满的玻璃罐（棕色）",
+    "block-jar-brown-woodsealed":    "密封玻璃罐（棕色）",
+    "block-jar-brown-metalsealed":   "密封玻璃罐（棕色）",
+    "block-jar-brown-woodpreserved": "保鲜玻璃罐（棕色）",
+    "block-jar-brown-metalpreserved":"保鲜玻璃罐（棕色）",
+    "block-jar-brown-opened":        "打开的玻璃罐（棕色）",
+
+    //Canning Jars — Quartz
+    "block-jar-quartz-empty":         "空玻璃罐（石英）",
+    "block-jar-quartz-filled":        "填满的玻璃罐（石英）",
+    "block-jar-quartz-woodsealed":    "密封玻璃罐（石英）",
+    "block-jar-quartz-metalsealed":   "密封玻璃罐（石英）",
+    "block-jar-quartz-woodpreserved": "保鲜玻璃罐（石英）",
+    "block-jar-quartz-metalpreserved":"保鲜玻璃罐（石英）",
+    "block-jar-quartz-opened":        "打开的玻璃罐（石英）",
+
+    //Canning Jars — Orange
+    "block-jar-orange-empty":         "空玻璃罐（橙色）",
+    "block-jar-orange-filled":        "填满的玻璃罐（橙色）",
+    "block-jar-orange-woodsealed":    "密封玻璃罐（橙色）",
+    "block-jar-orange-metalsealed":   "密封玻璃罐（橙色）",
+    "block-jar-orange-woodpreserved": "保鲜玻璃罐（橙色）",
+    "block-jar-orange-metalpreserved":"保鲜玻璃罐（橙色）",
+    "block-jar-orange-opened":        "打开的玻璃罐（橙色）",
+
+    //Canning Jars — Vintage
+    "block-jar-vintage-empty":         "空玻璃罐（复古）",
+    "block-jar-vintage-filled":        "填满的玻璃罐（复古）",
+    "block-jar-vintage-woodsealed":    "密封玻璃罐（复古）",
+    "block-jar-vintage-metalsealed":   "密封玻璃罐（复古）",
+    "block-jar-vintage-woodpreserved": "保鲜玻璃罐（复古）",
+    "block-jar-vintage-metalpreserved":"保鲜玻璃罐（复古）",
+    "block-jar-vintage-opened":        "打开的玻璃罐（复古）",
+
+    "ithaniacannedgoods:preservedOn": "保存于：第{2}年{1}{0}日，",
+
+    //Canning Tongs (canningtongs — original wood-handled)
+    "item-canningtongs-gold":         "金制罐装钳",
+    "itemdesc-canningtongs-gold":     "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-silver":         "银制罐装钳",
+    "itemdesc-canningtongs-silver":     "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-copper":         "铜制罐装钳",
+    "itemdesc-canningtongs-copper":     "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-tinbronze":      "锡铜制罐装钳",
+    "itemdesc-canningtongs-tinbronze":  "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-bismuthbronze":     "铋铜制罐装钳",
+    "itemdesc-canningtongs-bismuthbronze": "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-blackbronze":     "黑铜制罐装钳",
+    "itemdesc-canningtongs-blackbronze": "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-iron":         "铁制罐装钳",
+    "itemdesc-canningtongs-iron":     "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-meteoriciron":     "陨铁制罐装钳",
+    "itemdesc-canningtongs-meteoriciron": "用于安全处理热罐子和罐头的钳子",
+
+    "item-canningtongs-steel":         "钢制罐装钳",
+    "itemdesc-canningtongs-steel":     "用于安全处理热罐子和罐头的钳子",
+
+    //Canning Tongs (canningtongs-metal — smithed all-metal, awaiting handles)
+    "item-canningtongs-metal-copper":            "锻造铜钳",
+    "itemdesc-canningtongs-metal-copper":        "锻造的铜制罐装钳，待装柄",
+
+    "item-canningtongs-metal-tinbronze":         "锻造锡铜钳",
+    "itemdesc-canningtongs-metal-tinbronze":     "锻造的锡铜制罐装钳，待装柄",
+
+    "item-canningtongs-metal-bismuthbronze":     "锻造铋铜钳",
+    "itemdesc-canningtongs-metal-bismuthbronze": "锻造的铋铜制罐装钳，待装柄",
+
+    "item-canningtongs-metal-blackbronze":       "锻造黑铜钳",
+    "itemdesc-canningtongs-metal-blackbronze":   "锻造的黑铜制罐装钳，待装柄",
+
+    "item-canningtongs-metal-gold":              "锻造金钳",
+    "itemdesc-canningtongs-metal-gold":          "锻造的金制罐装钳，待装柄",
+
+    "item-canningtongs-metal-silver":            "锻造银钳",
+    "itemdesc-canningtongs-metal-silver":        "锻造的银制罐装钳，待装柄",
+
+    "item-canningtongs-metal-iron":              "锻造铁钳",
+    "itemdesc-canningtongs-metal-iron":          "锻造的铁制罐装钳，待装柄",
+
+    "item-canningtongs-metal-meteoriciron":      "锻造陨铁钳",
+    "itemdesc-canningtongs-metal-meteoriciron":  "锻造的陨铁制罐装钳，待装柄",
+
+    "item-canningtongs-metal-steel":             "锻造钢钳",
+    "itemdesc-canningtongs-metal-steel":         "锻造的钢制罐装钳，待装柄",
+
+    //Canning Bench
+    "block-canningbench-birch-*": "桦木罐装台",
+    "block-canningbench-oak-*": "橡木罐装台",
+    "block-canningbench-maple-*": "枫木罐装台",
+    "block-canningbench-pine-*": "松木罐装台",
+    "block-canningbench-acacia-*": "金合欢木罐装台",
+    "block-canningbench-kapok-*": "木棉木罐装台",
+    "block-canningbench-baldcypress-*": "落羽杉木罐装台",
+    "block-canningbench-larch-*": "落叶松木罐装台",
+    "block-canningbench-redwood-*": "红木罐装台",
+    "block-canningbench-ebony-*": "黑檀木罐装台",
+    "block-canningbench-walnut-*": "胡桃木罐装台",
+    "block-canningbench-purpleheart-*": "紫心木罐装台",
+    "block-canningbench-*": "装罐台",
+    "blockdesc-canningbench-*": "装填生食原料的操作台。长按右键砧板即可装填罐头。",
+
+    //Pressure Cooker
+    "block-pressurecooker": "高压灭菌锅",
+    "blockdesc-pressurecooker": "使用燃料与水为密封罐头保鲜。需要250°C。必须用火炬或引火物点燃。",
+
+    //Cans
+    "item-can-steel": "钢制罐头",
+    "itemdesc-can-steel": "锻造完成、待镀锡的钢制罐头",
+
+    "item-can-empty": "空罐头",
+    "itemdesc-can-empty": "可装入生食原料的空罐头",
+
+    "item-can-filled": "填满的罐头",
+    "itemdesc-can-filled": "已装入生食原料的罐头",
+
+    "item-can-sealed": "密封罐头",
+    "itemdesc-can-sealed": "已密封，待烹饪保鲜",
+
+    "item-can-preserved": "保鲜罐头",
+
+    "item-can-opened": "打开的罐头",
+    "itemdesc-can-opened": "打开的美味罐头。可直接手持长按右键食用，或放置后用碗右键盛取份数。",
+
+    "item-can-rot": "腐坏的罐头",
+    "itemdesc-can-rot": "罐头已腐坏，无法使用。可拆解为钢料。",
+
+    "ithaniacannedgoods:cannedOn": "封装于：第{2}年{1}{0}日",
+
+    // Cooking Recipes — meal name
+    "game:meal-normal-spam": "午餐肉",
+
+    // Labeled filled cans (fresh from canning bench)
+    "item-can-filled-*": "填满的罐头",
+
+    // Labeled sealed cans (after the press)
+    "item-can-sealed-*": "密封罐头",
+
+    // Labeled preserved cans (final shelf-stable product — simplest name)
+    "item-can-preserved-*": "保鲜罐头",
+
+    // Labeled opened cans — item variant (legacy pipeline, kept for backwards compatibility)
+    "item-can-opened-*": "打开的罐头",
+
+    // Opened-Can block
+    "block-can-opened": "打开的罐头",
+    "block-can-opened-*": "打开的罐头",
+
+    // Preserved-Can block
+    "block-can-preserved": "保鲜罐头",
+    "block-can-preserved-*": "保鲜罐头",
+
+    //Can Opener
+    "item-canopener": "开罐器",
+    "itemdesc-canopener": "副手持有，右键保鲜罐头即可打开。",
+
+    "item-canopener-metal": "开罐器头",
+    "itemdesc-canopener-metal": "钢制锻造开罐器头。",
+
+    //Can Lid
+    "item-canlid": "罐盖",
+    "itemdesc-canlid": "密封填满的罐头的盖子",
+
+    "item-canlid-steel": "钢制罐盖",
+    "itemdesc-canlid-steel": "待镀锡处理的钢制罐盖",
+
+    //Jar Lid
+    "item-jarlid-wood": "木制罐盖",
+    "itemdesc-jarlid-wood": "用于密封罐子的木盖。",
+    "item-jarlid-metal": "金属罐盖",
+    "itemdesc-jarlid-metal": "用于密封罐子的金属盖。比木盖提供更好的保鲜效果。",
+
+    //Canning Press
+    "block-canpress-birch-*": "桦木封罐机",
+    "block-canpress-oak-*": "橡木封罐机",
+    "block-canpress-maple-*": "枫木封罐机",
+    "block-canpress-pine-*": "松木封罐机",
+    "block-canpress-acacia-*": "金合欢木封罐机",
+    "block-canpress-kapok-*": "木棉木封罐机",
+    "block-canpress-baldcypress-*": "落羽杉木封罐机",
+    "block-canpress-larch-*": "落叶松木封罐机",
+    "block-canpress-redwood-*": "红木封罐机",
+    "block-canpress-ebony-*": "黑檀木封罐机",
+    "block-canpress-walnut-*": "胡桃木封罐机",
+    "block-canpress-purpleheart-*": "紫心木封罐机",
+    "block-canpress-*": "封罐机",
+    "blockdesc-canpress-*": "用于密封填满的罐头的封罐机。请放入罐盖与填满的罐头。",
+
+    //Canning Press Top
+    "block-canpresstop-birch-*": "桦木封罐机手柄",
+    "block-canpresstop-oak-*": "橡木封罐机手柄",
+    "block-canpresstop-maple-*": "枫木封罐机手柄",
+    "block-canpresstop-pine-*": "松木封罐机手柄",
+    "block-canpresstop-acacia-*": "金合欢木封罐机手柄",
+    "block-canpresstop-kapok-*": "木棉木封罐机手柄",
+    "block-canpresstop-baldcypress-*": "落羽杉木封罐机手柄",
+    "block-canpresstop-larch-*": "落叶松木封罐机手柄",
+    "block-canpresstop-redwood-*": "红木封罐机手柄",
+    "block-canpresstop-ebony-*": "黑檀木封罐机手柄",
+    "block-canpresstop-walnut-*": "胡桃木封罐机手柄",
+    "block-canpresstop-purpleheart-*": "紫心木封罐机手柄",
+    "block-canpresstop-*": "封罐机手柄",
+    "blockdesc-canpresstop-*": "长按右键手柄，将罐盖压合到罐头。",
+
+    //Meals & Ingredients
+    "game:mealrecipe-name-spam": "午餐肉",
+    "game:mealrecipe-name-spam-in-container": "午餐肉",
+    "game:handbook-mealingredient-salt": "盐",
+
+    // ConfigLib GUI labels and descriptions (server-side settings)
+    "ithaniacannedgoods:config-servings-per-can": "每罐份数",
+    "ithaniacannedgoods:config-servings-per-can-desc": "罐装台一个罐头最多可装入的份数。同时也影响每个槽位可放入的食材数量。最小4，最大6，默认4。",
+
+    "ithaniacannedgoods:config-servings-per-jar": "每罐份数（玻璃罐）",
+    "ithaniacannedgoods:config-servings-per-jar-desc": "罐装台一个玻璃罐最多可装入的份数。独立于金属罐的每罐份数。同时也影响每个槽位可放入的食材数量。最小4，最大8，默认4。",
+
+    "ithaniacannedgoods:config-preserved-multiplier": "保鲜罐头保质期倍数",
+    "ithaniacannedgoods:config-preserved-multiplier-desc": "保鲜罐头相对生食基准的总保质期倍数。密封倍数会自动扣除，两项设置完全独立。默认25=保鲜罐头保质期是生食的25倍。作为参考，原版密封罐通常为 10 倍。",
+
+    "ithaniacannedgoods:config-wood-lid-jar-multiplier": "木盖罐保鲜倍数",
+    "ithaniacannedgoods:config-wood-lid-jar-multiplier-desc": "木盖已保存罐的腐烂速度倍数。内容物的腐烂速度是生食材的1/此值。默认10 = 木盖罐的保鲜时间是生食材的10倍。",
+
+    "ithaniacannedgoods:config-metal-lid-jar-multiplier": "金属盖罐保鲜倍数",
+    "ithaniacannedgoods:config-metal-lid-jar-multiplier-desc": "金属盖已保存罐的腐烂速度倍数。内容物的腐烂速度是生食材的1/此值。默认15 = 金属盖罐的保鲜时间是生食材的15倍。",
+
+    "ithaniacannedgoods:config-hot-jar-shatter-chance": "热罐破碎几率（%）",
+    "ithaniacannedgoods:config-hot-jar-shatter-chance-desc": "热罐在未使用罐装钳不当处理时（赤手掉落或从原版钳子滑落）破碎的百分比几率。0 = 罐子永不破碎，100 = 罐子总是破碎。默认15%。",
+
+    "ithaniacannedgoods:config-cassiterite-per-can": "每个罐头消耗稀释锡石溶液",
+    "ithaniacannedgoods:config-cassiterite-per-can-desc": "桶内镀锡一个钢制罐头消耗的稀释锡石溶液升数。默认1.0升/罐。",
+
+    "ithaniacannedgoods:config-cassiterite-per-lid": "每个罐盖消耗稀释锡石溶液",
+    "ithaniacannedgoods:config-cassiterite-per-lid-desc": "桶内镀锡一个钢制罐盖消耗的稀释锡石溶液升数。默认0.1升/盖。",
+
+    "ithaniacannedgoods:config-cans-per": "每2.0锭钢可获得的钢罐数量",
+    "ithaniacannedgoods:config-cans-per-desc": "锻造钢罐配方的产出数量。默认：每2.0钢锭产出8.0个钢罐",
+
+    "ithaniacannedgoods:heldhelp-sealjar": "密封罐子",
+    "ithaniacannedgoods:jam-requires-jar": "果酱只能装入玻璃罐。",
+    "ithaniacannedgoods:heldhelp-unsealjar": "取下盖子",
+    "ithaniacannedgoods:heldhelp-servejar": "盛入碗中",
+    "ithaniacannedgoods:jartoohottopickup": "罐子太热，没有钳子无法拿起",
+    "ithaniacannedgoods:heldhelp-beeswaxseal": "施加蜂蜡密封",
+    "ithaniacannedgoods:jaralreadybeeswaxed": "罐子已经用蜂蜡密封",
+    "ithaniacannedgoods:jar-beeswaxed": "已用蜂蜡密封。"
+}

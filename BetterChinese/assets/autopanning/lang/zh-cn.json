@@ -1,0 +1,5 @@
+{
+    "Toggle": "切换自动淘沙",
+    "AutoPanning-true": "自动淘沙<font weight=\"bold\" color=\"#84ff84\">已启用</font>",
+    "AutoPanning-false": "自动淘沙<font weight=\"bold\" color=\"#ff8484\">已禁用</font>"
+}

@@ -1,0 +1,55 @@
+{
+  "electricalprogressiveindustry:recipeloading": "配方加载成功",
+  "electricalprogressiveindustry:blockhelp-pickup": "拾取",
+
+  "block-ecentrifuge-*": "堆肥机",
+  "block-handbooktitle-ecentrifuge": "用途",
+  "block-handbooktext-ecentrifuge": "允许将所有易腐烂物品/食物直接粉碎并加工成堆肥。获得的堆肥量是原版方法的一半。同时支持自定义加工配方，配方将显示在处理器的描述及物品本身中。<br>支持通过漏斗自动装卸。",
+
+  "block-ehammer-*": "自动锤炼机",
+  "block-handbooktitle-ehammer": "用途",
+  "block-handbooktext-ehammer": "简化并自动化铁砧上的工作。加工时有几率获得额外材料。<br>支持通过漏斗自动装卸。",
+
+  "block-epress-*": "自动压模机",
+  "block-handbooktitle-epress": "用途",
+  "block-handbooktext-epress": "允许使用模具通过挤压方式制造特定物品。<br>支持通过漏斗自动装卸。",
+
+  "block-edrawing-*": "拉丝机",
+  "block-handbooktitle-edrawing": "用途",
+  "block-handbooktext-edrawing": "允许通过将金属强制穿过模具，将其拉制成所需形状，从而制造特定物品。<br>支持通过漏斗自动装卸。",
+
+  "game:ewoodcutter-title-gui": "电动伐木机",
+  "block-ewoodcutter-normal": "电动伐木机",
+  "block-ewoodcutter-normal-burned": "电动伐木机（烧毁）",
+  "game:ecentrifuge-title-gui": "堆肥机",
+  "game:ehammer-title-gui": "自动锤炼机",
+  "game:epress-title-gui": "自动压模机",
+  "game:edrawing-title-gui": "拉丝机",
+
+  "block-pressform-axe": "斧头压模模具",
+  "block-pressform-pickaxe": "镐头压模模具",
+  "block-pressform-shovel": "铲头压模模具",
+  "block-pressform-falx": "镰刀压模模具",
+  "block-pressform-hammer": "锤头压模模具",
+  "block-pressform-hoe": "锄头压模模具",
+  "block-pressform-prospectingpick": "勘察镐压模模具",
+  "block-pressform-nails": "钉子和条状物压模模具",
+  "block-pressform-rod": "金属棒压模模具",
+
+  "block-gauge-32v": "32V 电缆量规",
+  "block-gauge-128v": "128V 电缆量规",
+
+  "electricalprogressive:produced-in": "加工设备：",
+  "electricalprogressive:energy-required": "所需能量",
+  "electricalprogressive:energy-unit": "焦",
+  "electricalprogressive:recipe-chance": "~{0}%",
+  "electricalprogressive:chance": "几率",
+  "electricalprogressivetransport:block-ewaterpump-*": "水泵",
+  "block-handbooktitle-ewaterpump": "水泵",
+  "block-handbooktext-ewaterpump": "一种从地下水源抽取水分的电动泵。需在水泵正下方5x5x5的区域内至少拥有50%的水块，且必须直接置于水源上方。最大汲水深度：10个方块。容量：100升。",
+
+  "Pump height": "几率",
+  "Water check area": "几率",
+  "Required water": "几率",
+  "Liquid capacity": "几率"
+}

@@ -1,0 +1,21 @@
+{
+  "abilityLevelRequired": "需要{0}等级{1}",
+  "actionLearn": "学习",
+  "actionUnlearn": "遗忘",
+  "effectBoxEnabled": "启用效果面板",
+  "effectBoxOrientation": "效果面板朝向",
+  "effectBoxOriginX": "效果面板原点X坐标",
+  "effectBoxOriginY": "效果面板原点Y坐标",
+  "effectBoxSize": "效果面板尺寸",
+  "expBonusDesc": "当前职业带来的经验值加成/惩罚。<br><br>职业效果：{0}<br>总效果：{1}<br>",
+  "expBonusTitle": "经验加成",
+  "hotkey-xSkillGilded_v2": "X技能-镀金界面：显示/隐藏技能菜单",
+  "lvPopupEnabled": "启用升级弹窗",
+  "pointsAvailable": "{0} 可用点数",
+  "sparringDesc": "切磋模式允许两名玩家互相攻击致死，且不会损失经验值。两名玩家需在战斗前均开启切磋模式。",
+  "sparringTitle": "切磋模式",
+  "specialization": "专精",
+  "unlearnDesc": "你可以通过<font color=\"feae34\">右键点击</font>技能来遗忘该技能。<br><br>遗忘技能需要消耗遗忘点数，遗忘点数可通过使用特定物品获得（更多详情请查看手册）。<br><br>遗忘操作有<font color=\"feae34\">{0}</font>的冷却时间，冷却结束后才能再次进行遗忘。",
+  "unlearnPoints": "遗忘点数",
+  "unlearnTitle": "遗忘技能"
+}

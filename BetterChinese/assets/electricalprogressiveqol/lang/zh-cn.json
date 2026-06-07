@@ -1,27 +1,64 @@
 {
-  "block-charger-*": "充电站",
-  "block-charger-burned-south": "充电站(烧毁)",
-
   "block-estove-*": "电炉",
   "block-estove-burned-south": "电炉(烧毁)",
-
-  "block-efreezer-*": "电冰箱",
-  "block-efreezer-burned-closed-north": "电冰箱 (烧毁)",
-  "block-efreezer-burned-open-north": "电冰箱 (烧毁)",
-
+  "block-handbooktitle-estove": "使用方法",
+  "block-handbooktext-estove": "电炉可完全取代篝火。<br><br>最高加热温度： 1325 °C.",
+  "BlockEStove": "电炉",
   "block-eoven-*": "电烤箱",
   "block-eoven-burned-north": "电烤箱 (烧毁)",
-
+  "block-handbooktitle-eoven": "使用方法",
+  "block-handbooktext-eoven": "电烤箱完全取代了火炉。烘烤完成后自动关闭。不再有烧焦的物品！",
   "block-ehorn-*": "电锻炉",
   "block-ehorn-burned-south": "电锻炉 (烧毁)",
-
+  "block-handbooktitle-ehorn": "使用方法",
+  "block-handbooktext-ehorn": "电锻炉完全取代了传统锻炉。<br><br>最高加热温度 1100 °C.",
   "block-heater-*": "电暖器",
   "block-heater-burned": "电暖器 (烧毁)",
-
-
+  "block-handbooktitle-heater": "使用方法",
+  "block-handbooktext-heater": "小型热源",
+  "heater-no-bonus": "不提供温度加成",
+  "heater-bonus": "电暖器加成：+{0} °C",
+  "block-eheatcannon-*": "热风机",
+  "block-handbooktitle-eheatcannon": "使用方法",
+  "block-handbooktext-eheatcannon": "一个强大的热源，可以为温室中的苗床、果树、普通树木（种子和树苗）、浆果丛和蜂箱提供额外的温度加成。一个满功率运行的热风机可为100个方块体积的温室内部提供+50度的温度加成。这个体积也包括苗床本身。热风机的效果可以叠加：你可以在任何一个热风机上查看总加成。一旦有植物重新计算生长条件，加成信息就会更新。<br>种植果树并不会因此变得更容易：你仍然需要遵循它们所有的生长周期，因此你需要根据树木当前阶段，使用热风机来调节温度。插条必须在低温下越冬数天，然后通过逐渐升温，等待它们生根（也可能不生根）。之后，你可以将内部温度进一步提高到适合该特定树种的舒适值，它就会开始开花、结果等。每种树都有自己的温度范围，所以小心不要伤害到它。一旦它结束结果，你可以强制让树木重新进入休眠期。然后，这个周期可以根据需要重复多次。",
+  "block-elamp-3000-*": "电灯: 橙-暖色 (3000K)",
+  "block-elamp-4000-*": "电灯: 黄-暖色 (4000K)",
+  "block-elamp-5000-*": "电灯: 白-暖色 (5000K)",
+  "block-elamp-6000-*": "电灯: 白-中性色 (6000K)",
+  "block-elamp-7000-*": "电灯: 白-冷色 (7000K)",
+  "block-elamp-8000-*": "电灯: 白-冷色 (8000K)",
+  "block-elamp-9000-*": "电灯: 蓝-冷色 (9000K)",
+  "block-elamp-3000-burned": "电灯 (烧毁)",
+  "block-elamp-4000-burned": "电灯 (烧毁)",
+  "block-elamp-5000-burned": "电灯 (烧毁)",
+  "block-elamp-6000-burned": "电灯 (烧毁)",
+  "block-elamp-7000-burned": "电灯 (烧毁)",
+  "block-elamp-8000-burned": "电灯 (烧毁)",
+  "block-elamp-9000-burned": "电灯 (烧毁)",
+  "block-handbooktitle-elamp": "使用方法",
+  "block-handbooktext-elamp": "耗电的可靠光源",
+  "block-elamp_small-3000-*": "小电灯: 橙-暖色 (3000K)",
+  "block-elamp_small-4000-*": "小电灯: 黄-暖色 (4000K)",
+  "block-elamp_small-5000-*": "小电灯: 白-暖色 (5000K)",
+  "block-elamp_small-6000-*": "小电灯: 白-中性色 (6000K)",
+  "block-elamp_small-7000-*": "小电灯: 白-冷色 (7000K)",
+  "block-elamp_small-8000-*": "小电灯: 白-冷色 (8000K)",
+  "block-elamp_small-9000-*": "小电灯: 蓝-冷色 (9000K)",
+  "block-elamp_small-3000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-4000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-5000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-6000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-7000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-8000-burned": "小电灯 (烧毁)",
+  "block-elamp_small-9000-burned": "小电灯 (烧毁)",
+  "block-handbooktitle-elamp_small": "使用方法",
+  "block-handbooktext-elamp_small": "耗电的紧凑型光源。",
+  "max-light": "最大光照",
+  "height": "高度",
   "block-nasteniy_fonar-*": "路灯",
   "block-nasteniy_fonar-burned": "路灯 (烧毁)",
-
+  "block-handbooktitle-nasteniy_fonar": "使用方法",
+  "block-handbooktext-nasteniy_fonar": "壁挂式电灯变体。",
   "block-stolb_fonar-*": "街灯",
   "block-stolb_fonar-2-i-burned": "街灯 (烧毁)",
   "block-stolb_fonar-3-i-burned": "街灯 (烧毁)",
@@ -32,100 +69,26 @@
   "block-stolb_fonar-4-r-burned": "街灯 (烧毁)",
   "block-stolb_fonar-4-t-burned": "街灯 (烧毁)",
   "block-stolb_fonar-4-x-burned": "街灯 (烧毁)",
-
-
-  "block-elamp-3000-*": "电灯: 橙-暖色 (3000K)",
-  "block-elamp-4000-*": "电灯: 黄-暖色 (4000K)",
-  "block-elamp-5000-*": "电灯: 白-暖色 (5000K)",
-  "block-elamp-6000-*": "电灯: 白-中性色 (6000K)",
-  "block-elamp-7000-*": "电灯: 白-冷色 (7000K)",
-  "block-elamp-8000-*": "电灯: 白-冷色 (8000K)",
-  "block-elamp-9000-*": "电灯: 蓝-冷色 (9000K)",
-
-  "block-elamp-3000-burned": "电灯 (烧毁)",
-  "block-elamp-4000-burned": "电灯 (烧毁)",
-  "block-elamp-5000-burned": "电灯 (烧毁)",
-  "block-elamp-6000-burned": "电灯 (烧毁)",
-  "block-elamp-7000-burned": "电灯 (烧毁)",
-  "block-elamp-8000-burned": "电灯 (烧毁)",
-  "block-elamp-9000-burned": "电灯 (烧毁)",
-
-  "block-elamp_small-3000-*": "小电灯: 橙-暖色 (3000K)",
-  "block-elamp_small-4000-*": "小电灯: 黄-暖色 (4000K)",
-  "block-elamp_small-5000-*": "小电灯: 白-暖色 (5000K)",
-  "block-elamp_small-6000-*": "小电灯: 白-中性色 (6000K)",
-  "block-elamp_small-7000-*": "小电灯: 白-冷色 (7000K)",
-  "block-elamp_small-8000-*": "小电灯: 白-冷色 (8000K)",
-  "block-elamp_small-9000-*": "小电灯: 蓝-冷色 (9000K)",
-
-  "block-elamp_small-3000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-4000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-5000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-6000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-7000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-8000-burned": "小电灯 (烧毁)",
-  "block-elamp_small-9000-burned": "小电灯 (烧毁)",
-
-  "item-edrill": "电钻",
-  "item-echisel": "电凿",
-  "item-edrilltip": "钻头",
-  "item-eaxe": "电斧",
-
-  "game:drill1": "开采1X1方块",
-  "game:drill2": "开采1X3方块",
-
-  "block-handbooktitle-eoven": "使用方法",
-  "block-handbooktext-eoven": "电烤箱完全取代了火炉。烘烤完成后自动关闭。不再有烧焦的物品！",
-
-  "block-handbooktitle-heater": "使用方法",
-  "block-handbooktext-heater": "小型热源",
-
-  "block-handbooktitle-elamp": "使用方法",
-  "block-handbooktext-elamp": "耗电的可靠光源",
-
-  "block-handbooktitle-elamp_small": "使用方法",
-  "block-handbooktext-elamp_small": "耗电的紧凑型光源。",
-
-
-
-  "block-handbooktitle-nasteniy_fonar": "使用方法",
-  "block-handbooktext-nasteniy_fonar": "壁挂式电灯变体。",
-
   "block-handbooktitle-stolb_fonar": "使用方法",
   "block-handbooktext-stolb_fonar": "用于街道照明的电灯变体。",
-
-
-
-  "block-handbooktitle-ehorn": "使用方法",
-  "block-handbooktext-ehorn": "电锻炉完全取代了传统锻炉。<br><br>最高加热温度 1100 °C.",
-
-  "block-handbooktitle-charger": "使用方法",
-  "block-handbooktext-charger": "充电站可为电池和内置电池的设备充电。",
-
-  "block-handbooktitle-estove": "使用方法",
-  "block-handbooktext-estove": "电炉可完全取代篝火。<br><br>最高加热温度： 1325 °C.",
-
+  "freezer-title-gui": "冰箱",
+  "freezer-over-help": "打开门，将食物放入内部以保鲜。",
+  "block-efridge-*": "电冰箱",
+  "block-handbooktitle-efridge": "使用方法",
+  "block-handbooktext-efridge": "电冰箱可以让食物保存更长时间。<br><br>储存槽位：6个。<br>食物腐烂速度：0.1倍。<br>断电后内部可保持低温长达6游戏小时。",
+  "block-efreezer-*": "电冰柜",
   "block-handbooktitle-efreezer": "使用方法",
-  "block-handbooktext-efreezer": "电冰箱可延长食物保存时间。<br><br>存储插槽：6 个。<br>食品变质率： 0.05x",
+  "block-handbooktext-efreezer": "电冰柜可以让食物长期保存。它还可以存放一个来自屠宰模组的动物尸体。<br><br>储存槽位：6个。<br>食物腐烂速度：0.025倍。<br>断电后内部可保持低温长达6游戏小时。",
+  "cold_reserve": "冷量储备: {0} 小时",
+  "block-efence-*": "电围栏",
+  "block-handbooktitle-efence": "使用方法",
+  "block-handbooktext-efence": "抵御不速之客的好方法。接触时造成电击伤害。不消耗能量，但必须连接到电路才能工作。",
+  "progress": "进度：{0}%",
+  "update_heater_info": "更新电暖器信息",
 
-  "item-handbooktitle-edrill": "使用方法",
-  "item-handbooktext-edrill": "采矿达到一个新水平。有两种操作模式：1x1 和 1x3。<br>放电后停止工作。记得充电！",
-
-  "item-handbooktitle-echisel": "使用方法",
-  "item-handbooktext-echisel": "带电池的凿子！不用于配方<br>放电后停止工作。记得充电！",
-
-  "item-handbooktitle-edrilltip": "使用方法",
-  "item-handbooktext-edrilltip": "电钻的核心部件。",
-
-  "item-handbooktitle-eaxe": "使用方法",
-  "item-handbooktext-eaxe": "非常适合砍。不用于配方。<br>放电后停止工作。记得充电！",
-
-  "game:BlockEStove": "电炉",
-  "game:freezer-title-gui": "冰箱",
-  "game:freezer-over-sneak-help": "开门/关门",
-  "game:freezer-over-help": "打开门，放置食物以保存食物。",
-
-  "game:Put-into-4-items": "烘焙至少需要 4 件物品。",
-  "game:max-light": "最大照明",
-  "game:height": "高"
+  "electricalprogressiveqol:block-efruitpress-*":"榨汁机",
+  "electricalprogressiveindustry:block-handbooktitle-ecentrifuge":"未填写内容",
+  "electricalprogressiveindustry:block-handbooktext-ecentrifuge":"未填写内容",
+  "Fruit:":"填充液体",
+  "blockhelp-watergen-fillliquid5":"填充液体"
 }

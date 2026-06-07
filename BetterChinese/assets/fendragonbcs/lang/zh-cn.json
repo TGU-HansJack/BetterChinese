@@ -1,0 +1,65 @@
+{
+	//***** MAIN *****	
+	"game:tabname-FendragonBCS": "风龙BCS",
+	"hotkey-togglebackpacklight": "背包灯：开/关",
+
+	//***** BACKPACK *****
+	//** Mini
+	"item-backpack-shkira-mini": "皮革迷你背包",
+	"item-backpack-polotno-mini": "亚麻迷你背包",
+	//** Tall	
+	"item-backpack-shkira-tall": "皮革高背包",
+	"item-backpack-polotno-tall": "亚麻高背包",
+	//** Basic	
+	"item-backpack-shkira-basic": "皮革基础背包",
+	"item-backpack-polotno-basic": "亚麻基础背包",
+	"item-backpack-sturdy-basic": "坚固基础背包",
+	//** Flat	
+	"item-backpack-shkira-flat": "皮革扁平背包",
+	"item-backpack-polotno-flat": "亚麻扁平背包",
+	"item-backpack-sturdy-flat": "坚固扁平背包",
+	//** Super	
+	"item-backpack-shkira-super": "皮革超级背包",
+	"item-backpack-polotno-super": "亚麻超级背包",
+	"item-backpack-sturdy-super": "坚固超级背包",
+	//** Mega	
+	"item-backpack-shkira-mega": "皮革巨型背包",
+	"item-backpack-polotno-mega": "亚麻巨型背包",
+	"item-backpack-sturdy-mega": "坚固巨型背包",
+	//** Ultra	
+	"item-backpack-shkira-ultra": "皮革终极背包",
+	"item-backpack-polotno-ultra": "亚麻终极背包",
+	"item-backpack-sturdy-ultra": "坚固终极背包",
+
+	//** Glider
+	"item-fbcs-glider": "滑翔背包",
+
+	//***** POCKET *****
+	//** Mini
+	"item-pocket-shkira-mini": "皮革迷你口袋",
+	"item-pocket-polotno-mini": "亚麻迷你口袋",
+	"item-pocket-sturdy-mini": "坚固迷你口袋",
+	//** Middle	
+	"item-pocket-shkira-middle": "皮革中型口袋",
+	"item-pocket-polotno-middle": "亚麻中型口袋",
+	"item-pocket-sturdy-middle": "坚固中型口袋",
+	//** Big	
+	"item-pocket-shkira-big": "皮革大型口袋",
+	"item-pocket-polotno-big": "亚麻大型口袋",
+	"item-pocket-sturdy-big": "坚固大型口袋",
+
+	//***** ItemDESC *****
+	//** BACKPACK
+	"itemdesc-backpack-*-mini": "<font color=\"#FDFDFD\">迷你</font>背包，可容纳物品 + 火把",
+	"itemdesc-backpack-*-tall": "<font color=\"#A9DFBF\">高款</font>背包，顶部额外口袋 + 火把",
+	"itemdesc-backpack-*-basic": "<font color=\"#D4E6F1\">基础</font>背包，侧面一个额外口袋 + 手电筒",
+	"itemdesc-backpack-*-flat": "<font color=\"#F2E9BB\">扁平</font>背包，两侧各有一个额外口袋 + 手电筒",
+	"itemdesc-backpack-*-super": "<font color=\"#F4ECF7\">超级</font>背包，一侧两个口袋、另一侧一个口袋 + 煤气灯",
+	"itemdesc-backpack-*-mega": "<font color=\"#F2D7D5\">巨型</font>背包，两侧各两个口袋 + 煤气灯",
+	"itemdesc-backpack-*-ultra": "<font color=\"#FAD7A0\">终极</font>背包，全副武装，拥有所有可能的额外口袋 + 乔纳斯灯",
+	"itemdesc-fbcs-glider": "背包与滑翔伞的组合",
+	//** POCKET
+	"itemdesc-pocket-*-mini": "<font color=\"#FDFDFD\">迷你</font>口袋，饰有橄榄石",
+	"itemdesc-pocket-*-middle": "<font color=\"#A9DFBF\">高款</font>口袋，饰有青金石",
+	"itemdesc-pocket-*-big": "<font color=\"#D4E6F1\">基础</font>口袋，饰有紫水晶"
+}

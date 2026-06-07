@@ -1,0 +1,17 @@
+{
+  "item-creature-playercorpse": "玩家尸体",
+  "blockhelp-collect": "取回",
+
+  "game:ingameerror-not-corpse-owner": "这不是你的尸体！",
+  "corpse-free": "对所有人开放",
+  "corpse-created(date={0})": "已创建 {0}",
+
+  "item-corpsecompass": "尸体指针",
+  "playercorpseforked:item-handbooktitle-playercorpseforked:corpsecompass": "用法",
+  "playercorpseforked:item-handbooktext-playercorpseforked:corpsecompass": "帮助寻找你的尸体。服务器管理员也可以检查 server-main.txt 日志以获取所有尸体的精确坐标（在创造模式下使用）<br/><br/><b>在玩家周围的 7x7 区块范围内搜索（默认 224x256x224 格）</b>",
+  "corpsecompass-corpses-not-found": "周围没有发现尸体",
+  "corpsecompass-target-set": "目标设定为最后一具尸体",
+  "corpsecompass-no-last-corpse": "未找到最后一具尸体",
+
+  "corpse-creation-failed": "尸体创建失败 — 你的物品已掉落在你的死亡位置。详情请查看服务器日志。"
+}

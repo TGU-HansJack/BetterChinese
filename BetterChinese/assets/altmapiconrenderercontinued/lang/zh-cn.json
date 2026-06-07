@@ -1,0 +1,14 @@
+{
+    "altmapiconrenderer:square.enabled": "方形标记点已启用。",
+    "altmapiconrenderer:square.disabled": "方形标记点已禁用。",
+    "altmapiconrenderer:outline.enabled": "细轮廓线已启用。",
+    "altmapiconrenderer:outline.disabled": "粗轮廓线已启用。",
+    "altmapiconrenderer:playercolor.set": "玩家颜色已设置。",
+    "altmapiconrenderer:icons.hidden": "图标已隐藏。",
+    "altmapiconrenderer:icons.shown": "图标已显示。",
+    "altmapiconrenderer:playerpin.enabled": "玩家图标固定已启用。",
+    "altmapiconrenderer:playerpin.disabled": "玩家图标固定已禁用。",
+    "altmapiconrenderer:scale.set": "标记点图标缩放比例已设置为 {0:0.00}。",
+    "altmapiconrenderer:pscale.set": "玩家图标缩放比例已设置为 {0:0.00}。",
+    "altmapiconrenderer:cmd.help": "[Alternative Map Icon Renderer] 说明：\n切换方形标记点，使用：\t<code>.amir square [off, on]</code>\n修改标记点轮廓样式，使用：\t<code>.amir outline [thick, thin]</code>\n修改玩家图标颜色，使用：\t<code>.amir pc [#colour]</code>\n临时隐藏标记点图标，使用：\t<code>.amir hide</code>\n再次显示标记点图标，使用：\t<code>.amir show</code>"
+}

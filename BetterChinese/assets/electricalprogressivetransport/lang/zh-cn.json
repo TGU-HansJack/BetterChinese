@@ -1,0 +1,59 @@
+{
+  "game:tabname-electricalprogressivetransport": "运输管道",
+  "block-pipe-normal-*": "运输管道",
+  "block-pipe-item-*": "物品输入管道",
+  "pipe-normal-info": "标准运输管道",
+  "pipe-insertion-info": "过滤式物品输入管道",
+  "blockhelp-filter-settings": "打开过滤设置",
+  "blockhelp-pipe-switch-type": "切换管道类型",
+  "connections": "连接数：{0}",
+  "containers": "容器数：{0}",
+  "filter-mode": "过滤模式：{0}",
+  "network-size": "网络规模：{0}",
+  "inserters": "输入管道：{0}",
+  "transfer-rate": "传输速率：{0}",
+  "active-filters": "过滤器：{0}/{1}",
+
+  "filter-pipe-title": "过滤管道",
+  "filter-pipe-comment": "将物品放入槽位以进行过滤",
+  "filter-pipe-settings": "过滤设置：",
+  "filter-pipe": "过滤管道",
+  "filter-mode-allow": "白名单",
+  "filter-mode-deny": "黑名单",
+  "filter-match-mod": "匹配模组",
+  "filter-match-type": "匹配类型",
+  "filter-match-attrs": "匹配属性",
+  "filter-speet-transfer": "传输速度：",
+  "filter-speet-up": "增加",
+  "filter-speet-down": "减少",
+
+  "block-pipe-liquid-*": "液体输入管道",
+  "filter-liquidpipe-comment": "将液体放入槽位以进行过滤",
+  "pipe-liquid-insertion-info": "液体过滤输入管道",
+  "blockhelp-liquid-filter-settings": "打开液体过滤设置",
+  "liquid-filter-pipe-title": "液体过滤管道",
+  "liquid-filter-pipe-settings": "液体过滤设置：",
+  "liquid-inserters": "液体管道：{0}",
+  "liquid-transfer-rate": "液体传输速率：{0} 毫升/ tick",
+  "liquid-transfer-speed": "传输速度：",
+  "active-liquid-filters": "液体过滤器：{0}/{1}",
+
+  "preservation-settings": "保鲜设置：",
+  "perish-fully-stopped": "• 腐坏：完全停止",
+  "perish-slowed-factor": "• 腐坏：减速 {0} 倍",
+  "all-transitions-stopped": "• 所有状态变化：停止",
+  "preservation-disabled": "• 保鲜：禁用",
+  "inventory-connections": "已连接的物品栏：{0}",
+
+
+  "block-handbooktitle-pipe-normal": "用途",
+  "block-handbooktext-pipe-normal": "允许传输物品和液体。使用此管道连接容器/物品栏。在容器前的最后一根管道必须转换为输入管道。操作方法：手持扳手，右键点击管道。然后可以在 GUI 中设置过滤器。",
+
+  "block-handbooktitle-pipe-item-insertion": "用途",
+  "block-handbooktext-pipe-item-insertion": "允许将物品插入相邻容器。将任意数量的所需物品放入空槽位即可设置过滤器。如果所有过滤槽位均为空，则会无过滤地移动所有物品。",
+
+  "block-handbooktitle-pipe-liquid-insertion": "用途",
+  "block-handbooktext-pipe-liquid-insertion": "允许将液体插入相邻容器。将任意数量的所需液体放入空槽位即可设置过滤器。如果所有过滤槽位均为空，则会无过滤地移动所有液体。"
+
+
+}

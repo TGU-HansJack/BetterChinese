@@ -1,0 +1,14 @@
+{
+  "pushinventory": "推送库存",
+  "sortinventories": "对库存进行排序",
+  "pullinventory": "拉取清单",
+  "sortbackpack": "排序背包",
+  "fillbackpack": "填充背包",
+  "clearhandslot": "清除手槽",
+  "sort": "排序",
+  "priority": "优先权",
+  "Λ": "堆",
+  "V": "抢",
+  "V\n¯": "补",
+  "X": "X"
+}

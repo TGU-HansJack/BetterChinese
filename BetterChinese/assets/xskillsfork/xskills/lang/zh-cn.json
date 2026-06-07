@@ -1,0 +1,609 @@
+{
+  "adrenalinerush-effect": "肾上腺素飙升",
+  "adrenalinerush-effectdesc": "暂时提升攻击速\n度/伤害/移动速\n度。",
+  "armor-heavy-dec": "移动速度, 饥饿\n速率, 治疗效果",
+  "armor-heavy-inc": "远程精准度, 拉\n弓速度",
+  "armor-light-inc": "治疗效果, 远程\n精准度, 拉弓速\n度",
+  "beehive-harvest": "从蜂箱中取出产\n物",
+  "block-cage-wooden-east": "笼子",
+  "block-cage-wooden-north": "笼子",
+  "block-cage-wooden-south": "笼子",
+  "block-cage-wooden-west": "笼子",
+  "blockhelp-bloomery-takeresult": "从锻铁炉中取出\n{0}",
+  "blockhelp-cage-catch": "捕捉动物",
+  "blockhelp-cage-pickup": "捡起笼子",
+  "blockhelp-cage-place": "放置笼子",
+  "blockhelp-cage-release": "释放{0}",
+  "bloodlust-effect": "嗜血",
+  "bloodlust-effectdesc": "通过击杀敌人来\n恢复生命值或获\n得暂时的力量增\n益。",
+  "book-meteorology": "气象学入门",
+  "book-monster": "怪物图鉴",
+  "catchable": "可捕捉",
+  "cateyes-compress-off": "光线压缩：关",
+  "cateyes-compress-on": "光线压缩：开",
+  "cateyes-filter-blue": "猫眼过滤器：蓝\n色",
+  "cateyes-filter-deactivated": "猫眼过滤器：禁\n用",
+  "cateyes-filter-gray": "猫眼过滤器：灰\n色",
+  "cateyes-filter-green": "猫眼过滤器：绿\n色",
+  "cateyes-filter-none": "猫眼过滤器：无\n（默认）",
+  "cateyes-filter-red": "猫眼过滤器：红\n色",
+  "cateyes-filter-sepia": "猫眼过滤器：深\n褐色",
+  "cateyes-off": "猫眼：关",
+  "cateyes-on": "猫眼：开",
+  "cloudiness-range": "云量介于{0:P2}\n和{1:P2}\n之间",
+  "cooking-finished": "烹饪完成：{0}",
+  "game:characterclass-clockmakergloo": "GlooMeClasses: 钟表匠",
+  "group-collecting": "采集",
+  "group-processing": "加工",
+  "group-survival": "生存",
+  "harvestable-in-days": "{0:N1}天后可收\n获",
+  "hotkey-cateyesonoff": "X技能：夜视开/关",
+  "hotkey-cateyestoggle": "X技能：切换猫眼过\n滤器",
+  "hotkey-effectframehotkey": "X技能：显示/隐藏效\n果HUD",
+  "hotkey-skilldialoghotkey_v2": "X技能：显示/隐藏技\n能菜单",
+  "hotkey-steeplechasertoggle": "X技能：跨栏开/关",
+  "hotkey-xskillshotbarswitch": "X技能：快捷栏切换",
+  "in-days": "{0}天后",
+  "ingameerror-bitforging": "你需要Bit \nForging\n技能才能在铁\n砧上加工金属碎\n块。",
+  "isnearby": " 就在附近！",
+  "item-everlastingcharcoal": "永恒木炭",
+  "itemdesc-everlastingcharcoal": "一块能燃烧很长\n时间的木炭。",
+  "meteorology": "气象学",
+  "monster": "怪物",
+  "owner-desc": "所有者：{0}",
+  "perk-bonus": "当前加成：+{0}%\n（基础几率 {1}%\n + 等级加成 {2}%\n）",
+  "perk-chance": "当前几率：{0}%\n（基础几率 {1}%\n + 等级加成 {2}%\n）",
+  "perk-damage": "当前伤害/防御加\n成：+{0}%\n（基础几率 {1}%\n + 等级加成 {2}%\n）",
+  "perk-maxbonus": "当前最大加成：\n{0} 个",
+  "pottery-finished": "{0} 烧制完成。",
+  "probability-of-precipitation-range": "降水概率{0:P2}\n至{1:P2}",
+  "progress": "进度：{0:P0}",
+  "quality-bad": "品质：差",
+  "quality-common": "品质：普通",
+  "quality-epic": "品质：史诗",
+  "quality-legendary": "品质：传说",
+  "quality-rare": "品质：稀有",
+  "quality-uncommon": "品质：罕见",
+  "ready-to-mate": "{0:N1}天后准备交\n配",
+  "resourcereduction": "资源减少：{0:P2}",
+  "saturated": "饱和",
+  "saturated-expMult-effect": "饱和：经验",
+  "saturated-expMult-effectdesc": "增加你所有技能\n的经验获取{0:P2}\n。",
+  "saturated-health-effect": "饱和：生命值",
+  "saturated-health-effectdesc": "增加你的最大生\n命值{0:N2}点。",
+  "saturated-heated-effect": "饱和：加热",
+  "saturated-heated-effectdesc": "每{1:N2}秒增加\n你的体温{0:N2}\n，最高温度为{2:N2}\n。",
+  "saturated-hot-effect": "饱和：治疗",
+  "saturated-hot-effectdesc": "每{1:N2}秒恢复\n{0:N2}点生命值\n。",
+  "saturated-hungerrate-effect": "饱和：饥饿率",
+  "saturated-hungerrate-effectdesc": "减少你的饥饿率\n{0:P2}。",
+  "saturated-miningSpeed-effect": "饱和：挖掘速度",
+  "saturated-miningSpeed-effectdesc": "增加你的挖掘速\n度{0:P2}。",
+  "skill-combat": "战斗",
+  "skill-cooking": "烹饪",
+  "skill-digging": "挖掘",
+  "skill-farming": "农耕",
+  "skill-fishing": "渔业",
+  "skill-forestry": "林业",
+  "skill-husbandry": "畜牧",
+  "skill-metalworking": "打铁",
+  "skill-mining": "采矿",
+  "skill-pottery": "陶艺",
+  "skill-survival": "生存",
+  "skill-temporaladaptation": "时空适应",
+  "steeplechaser-off": "跨栏：关",
+  "steeplechaser-on": "跨栏：开",
+  "sunrise-at": "日出时间{0}",
+  "sunset-at": "日落时间{0}",
+  "temperature-range": "温度范围\n{0:0.0}°C 至\n{1:0.0}°C",
+  "the-day-after-tomorrow": "后天",
+  "today": "今天",
+  "tomorrow": "明天",
+  "weather-forecast-from": "来自{0}的天气\n预报",
+  "xleveling:requirement-trait": "所需特性：{0}",
+  "xlib:skillbook-studied": "<font color=\"#ff9999\">已学习</font>",
+
+  "ability-abundanceadaptation": "富足适应",
+  "abilitydesc-abundanceadaptation": "增加你的治疗效\n果{0}%和你的\n饥饿率{1}%。",
+
+  "ability-adrenalinerush": "肾上腺素飙升",
+  "abilitydesc-adrenalinerush": "如果你的生命值\n低于最大生命值\n的{0}%，你将\n获得肾上腺素飙\n升效果，增加你\n的移动速度{1}%\n并减少受到的伤\n害{2}%，持续\n{3}秒。当此\n效果结束时，你\n将疲惫{4}秒。",
+
+  "ability-afforestation": "植树造林",
+  "abilitydesc-afforestation": "破坏树叶时将获\n得{0}%更多的\n树苗。",
+
+  "ability-allrounder": "多面手",
+  "abilitydesc-allrounder": "你可以额外学习\n{0}个职业。",
+
+  "ability-archer": "弓手",
+  "abilitydesc-archer": "增加你用弓造成\n的伤害{0}%，\n并且每提升一级\n战斗技能额外增\n加{1}%。最高为\n{2}%。",
+
+  "ability-armoredagility": "装甲敏捷",
+  "abilitydesc-armoredagility": "使你穿戴护甲时\n受到的行走速度\n惩罚减少 {0}%。",
+
+  "ability-autobaiter": "灵巧双手",
+  "abilitydesc-autobaiter": "抛竿时自动从背\n包中为鱼竿装上\n鱼饵。",
+
+  "ability-automatedsmithing": "自动锻造",
+  "abilitydesc-automatedsmithing": "你的柄锤可以处\n理最多{0}层的\n物品。",
+
+  "ability-axeexpert": "斧头专家",
+  "abilitydesc-axeexpert": "用斧头破坏一个\n方块会增加你用\n斧头砍树的速度\n{0}%，并且每\n提升一级林业技\n能额外增加 0.{1}\n%。最高为{2}%\n。此效果最多叠\n加{3}次，持\n续{4}秒。",
+
+  "ability-baitmaster": "鱼饵大师",
+  "abilitydesc-baitmaster": "成功钓上鱼时，\n有 {0}% 的几\n率（每钓鱼等级\n +{1}%，最高\n {2}%）不消耗\n鱼饵。",
+
+  "ability-beekeeper": "养蜂人",
+  "abilitydesc-beekeeper": "破坏可收获的蜂\n箱将使你多获得\n{0}个蜜脾。",
+
+  "ability-beemaster": "蜂王",
+  "abilitydesc-beemaster": "你可以通过右键\n点击收获蜂箱而\n不破坏它们。",
+
+  "ability-bitforging": "碎块锻造",
+  "abilitydesc-bitforging": "金属碎块达到工\n作温度后，可直\n接用于锻造物品\n。每个碎块都会\n为工件添加少量\n材料。",
+
+  "ability-blacksmith": "工匠精神",
+  "abilitydesc-blacksmith": "你在铁砧上锻造\n的物品现在可以\n拥有品质，基础\n值为{0}，最大\n值为{1}。用有\n品质的部件制作\n工具或护甲也会\n产生有品质的物\n品。有品质的护\n甲和工具将具有\n更高的属性。你\n可以通过淬火来\n提高物品的品质\n。",
+
+  "ability-blaster": "爆破手",
+  "abilitydesc-blaster": "如果你用炸弹炸\n毁岩石或矿石，\n你的碎石者、石\n匠、矿工和宝石\n矿工能力也会生\n效。",
+
+  "ability-bloodlust": "嗜血",
+  "abilitydesc-bloodlust": "每次你击杀一个\n敌人时，你将获\n得一层嗜血效果\n。每层效果增加\n你造成的伤害\n{0}%，受到的\n伤害{1}%。此\n效果最多叠加\n{3}次，持续\n{2}秒。",
+
+  "ability-bloomeryexpert": "熔炼专家",
+  "abilitydesc-bloomeryexpert": "你可以从锻铁炉\n中取出熔炼结果\n而不破坏它。",
+
+  "ability-bomberman": "炸弹人",
+  "abilitydesc-bomberman": "如果你用炸弹炸\n毁岩石或矿石，\n掉落惩罚减少\n{0}%。",
+
+  "ability-bonebreaker": "碎骨者",
+  "abilitydesc-bonebreaker": "增加从破坏尸体\n中获得的产量\n{0}%，并且每\n提升一级畜牧技\n能额外增加{1}%\n。最高为{2}%。",
+
+  "ability-breeder": "饲养员",
+  "abilitydesc-breeder": "减少动物的怀孕\n时间{0}%，并\n且每提升一级畜\n牧技能额外减少\n{1}%，再乘以\n母体代数的{2}%\n，最高减少{3}%\n。",
+
+  "ability-brightharvest": "光明丰收",
+  "abilitydesc-brightharvest": "你的剪刀和镰刀\n一次可以破坏\n{0}%更多的方\n块。",
+
+  "ability-bully": "威吓",
+  "abilitydesc-bully": "使你近战攻击的\n击退强度提高\n{0}%，每级战\n斗技能等级额外\n提高 {1}%，最\n高不超过 {2}%。",
+
+  "ability-burningrage": "燃烧之怒",
+  "abilitydesc-burningrage": "每次你击中一个\n敌人时，有{0}%\n的几率点燃它。",
+
+  "ability-butcher": "屠夫",
+  "abilitydesc-butcher": "增加从动物身上\n获得的肉产量\n{0}%，并且每\n提升一级畜牧技\n能额外增加{1}%\n。最高为{2}%。",
+
+  "ability-canteencook": "食堂厨师",
+  "abilitydesc-canteencook": "你一次可以多烹\n饪{0}%的份量\n。",
+
+  "ability-carefuldigger": "细心挖掘者",
+  "abilitydesc-carefuldigger": "用铲子挖掘时，\n有{0}%的基础\n几率不减少铲子\n的耐久度，并且\n每提升一级挖掘\n技能额外增加\n{1}%。几率上\n限为{2}%。",
+
+  "ability-carefulhands": "灵巧双手",
+  "abilitydesc-carefulhands": "允许你用空手收\n割蘑菇和芦苇而\n不破坏根茎。",
+
+  "ability-carefullumberjack": "细心伐木工",
+  "abilitydesc-carefullumberjack": "用斧头砍伐树木\n时，有{0}%的\n基础几率不减少\n斧头的耐久度，\n并且每提升一级\n林业技能额外增\n加{1}%。几率\n上限为{2}%。",
+
+  "ability-carefulminer": "细心矿工",
+  "abilitydesc-carefulminer": "用镐挖掘石头或\n矿石时，有{0}%\n的基础几率不减\n少镐的耐久度，\n并且每提升一级\n采矿技能额外增\n加{1}%。几率\n上限为{2}%。",
+
+  "ability-catcher": "捕手",
+  "abilitydesc-catcher": "允许你制作笼子\n并用它们捕捉小\n动物。",
+
+  "ability-cateyes": "猫眼",
+  "abilitydesc-cateyes": "你的眼睛可以适\n应黑暗区域，亮\n度增加最多{0}\n倍，但你可能\n会失去一些颜色\n。当你的眼睛适\n应后，请小心明\n亮的光源。",
+
+  "ability-caveman": "穴居人",
+  "abilitydesc-caveman": "根据你的深度，\n减少时空稳态的\n损失最多{0}%\n，并且每提升一\n级时空适应技能\n额外减少{1}%\n。最高为{2}%。",
+
+  "ability-charcoalburner": "烧炭工",
+  "abilitydesc-charcoalburner": "你将从炭坑中获\n得{0}%更多的\n木炭。",
+
+  "ability-cheesycheese": "芝士奶酪",
+  "abilitydesc-cheesycheese": "挤奶时有{0}%\n的基础几率获得\n奶酪而不是牛奶\n，并且每多一天\n未挤奶额外增加\n{1}%。",
+
+  "ability-chef": "厨师(职业)",
+  "abilitydesc-chef": "烹饪技能将获得\n{0}%更多的经\n验。你可以学习\n的职业数量有限\n。",
+
+  "ability-claydigger": "粘土挖掘者",
+  "abilitydesc-claydigger": "增加粘土收获产\n量{0}%，并且\n每提升一级挖掘\n技能额外增加\n{1}%。最高为\n{2}%。",
+
+  "ability-composting": "堆肥",
+  "abilitydesc-composting": "每次你收割一个\n完全成熟的作物\n时，农田将恢复\n({0}/2)%主养\n分和({1}/2)%其\n他养分。",
+
+  "ability-crossbreeding": "杂交",
+  "abilitydesc-crossbreeding": "收割一个完全成\n熟的作物旁边有\n另一个完全成熟\n的不同类型作物\n时，有{0}%的\n基础几率掉落一\n个随机种子。",
+
+  "ability-crystalseeker": "水晶探索者",
+  "abilitydesc-crystalseeker": "你的矿工能力对\n结晶矿石的效果\n增加{0}%。",
+
+  "ability-cultivatedseeds": "栽培种子",
+  "abilitydesc-cultivatedseeds": "如果你种植种子\n，种植的植物有\n{0}%的基础几\n率跳过一个生长\n阶段，并且每提\n升一级耕作技能\n额外增加{1}%\n。如果作物种植\n在温室中，此能\n力将始终触发，\n并有几率再次触\n发。几率上限为\n{2}%。",
+
+  "ability-defender": "防御者",
+  "abilitydesc-defender": "如果你主动格挡\n攻击，用盾牌吸\n收伤害的几率增\n加{0}%。",
+
+  "ability-demetersbless": "得墨忒耳的祝福",
+  "abilitydesc-demetersbless": "增加你收集种子\n的产量{0}%，\n并且每提升一级\n耕作技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-desalinate": "海水淡化",
+  "abilitydesc-desalinate": "允许你将水倒入\n锅中制作盐或其\n他物品。你需要\n将所有烹饪槽位\n都装满水。每\n4*6 升水，你\n将获得{0}个主\n要物品和{1}\n个次要物品。",
+
+  "ability-digger": "挖掘者(职业)",
+  "abilitydesc-digger": "所有挖掘活动将\n获得{0}%更多\n的经验。你可以\n学习的职业数量\n有限。",
+
+  "ability-dilution": "无米之炊",
+  "abilitydesc-dilution": "增加你烹饪时获\n得的份量{0}%\n，并且每提升一\n级烹饪技能额外\n增加{1}%。上\n限为{2}%。",
+
+  "ability-diver": "潜水员",
+  "abilitydesc-diver": "减少你的氧气消\n耗{0}%。",
+
+  "ability-doublehook": "双钩",
+  "abilitydesc-doublehook": "有 {0}% 的几\n率（每钓鱼等级\n +{1}%，最高\n {2}%）一次抛\n竿钓起两条鱼！",
+
+  "ability-drunkenmaster": "醉拳大师",
+  "abilitydesc-drunkenmaster": "根据你的醉酒程\n度，增加你空手\n造成的伤害最多\n{0}%，但如果你\n清醒，伤害减少\n{1}%。",
+
+  "ability-duplicator": "复制者",
+  "abilitydesc-duplicator": "在铁砧上完成金\n属加工后，你有\n{0}%的基础几\n率获得第二个相\n同的物品，并且\n每提升一级打铁\n技能额外增加\n{1}%。最高为\n{2}%。不影响\n某些具有可熔炼\n产品的工作。",
+
+  "ability-eggtimer": "烹饪定时",
+  "abilitydesc-eggtimer": "当餐点烹饪完成\n时，你会收到一\n条消息。",
+
+  "ability-extensivefarming": "粗放耕作",
+  "abilitydesc-extensivefarming": "为某些耕作工具\n启用工具模式，\n以处理更大范围\n的区域。启用一\n个{0}x{0}区域\n的工具模式。",
+
+  "ability-farmer": "农民(职业)",
+  "abilitydesc-farmer": "所有耕作活动将\n获得{0}%更多\n的经验。你可以\n学习的职业数量\n有限。",
+
+  "ability-fastfood": "快速烹饪",
+  "abilitydesc-fastfood": "你的烹饪速度加\n快{0}%，并且\n每提升一级烹饪\n技能额外加快\n{1}%。上限为\n{2}%。",
+
+  "ability-fastforward": "快进",
+  "abilitydesc-fastforward": "根据你的时空稳\n态，增加你的挖\n掘速度和食物消\n耗最多{0}%。\n稳态越低，数值\n越高。",
+
+  "ability-fastpotter": "快手陶工",
+  "abilitydesc-fastpotter": "每次操作时，你\n都有几率立即完\n成陶艺工作。工\n作越高级，几率\n越大。最大几率\n为{0}%，并且\n每提升一级陶艺\n技能额外增加 0.{1}\n%。每次操作的\n几率上限为{2}%\n。",
+
+  "ability-featherfall": "羽落",
+  "abilitydesc-featherfall": "减少你的坠落伤\n害{0}点，并额\n外减少{1}%。",
+
+  "ability-feeder": "喂食者",
+  "abilitydesc-feeder": "动物从你的饲料\n槽中进食时，有\n{0}%的基础几\n率不消耗任何饲\n料，并且每提升\n一级畜牧技能额\n外增加{1}%，\n最高为{2}%。\n动物从你的饲料\n槽中进食时还有\n{3}%的几率增\n加其代数，最高\n代数为{4}。",
+
+  "ability-finishingtouch": "画龙点睛",
+  "abilitydesc-finishingtouch": "每次敲击时，你\n都有几率立即完\n成金属加工。加\n工越高级，几率\n越大。最大几率\n为{0}%，并且\n每提升一级打铁\n技能额外增加 0.{1}\n%。每次敲击的\n几率上限为{2}%\n。",
+
+  "ability-fisher": "渔夫",
+  "abilitydesc-fisher": "钓鱼技能获得的\n经验值增加 {0}\n%。职业。你可\n以学习的职业数\n量有限。",
+
+  "ability-fishfilleter": "鱼片专家",
+  "abilitydesc-fishfilleter": "将鱼切成鱼排时\n，有 {0}% 的\n几率（每钓鱼等\n级 +{1}%，最\n高 {2}%）获得\n额外鱼排。最大\n额外鱼排数量等\n于你的技能等级\n（最多 5 个）\n。",
+
+  "ability-forester": "林务员(职业)",
+  "abilitydesc-forester": "所有林业活动将\n获得{0}%更多\n的经验。你可以\n学习的职业数量\n有限。",
+
+  "ability-freshflesh": "狂野",
+  "abilitydesc-freshflesh": "每次你击杀一个\n敌人，你将获得\n{0}点蛋白质饱\n食度。",
+
+  "ability-furrier": "毛皮商",
+  "abilitydesc-furrier": "增加从动物身上\n获得的皮毛产量\n{0}%，并且每\n提升一级畜牧技\n能额外增加{1}%\n。最高为{2}%。",
+
+  "ability-gatherer": "采集者",
+  "abilitydesc-gatherer": "增加你从收割草\n、浆果灌木、芦\n苇和蘑菇中获得\n的产量{0}%，\n并且每提升一级\n耕作技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-gemstoneminer": "宝石矿工",
+  "abilitydesc-gemstoneminer": "增加你获得的宝\n石数量{0}%，\n并且每提升一级\n采矿技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-geologist": "地质学家",
+  "abilitydesc-geologist": "每次你破坏一块\n岩石时，如果半\n径{0}格内有矿\n石方块，你会收\n到通知。",
+
+  "ability-golddigger": "淘金者",
+  "abilitydesc-golddigger": "增加你淘洗时的\n产量{0}%，并\n且每提升一级挖\n掘技能额外增加\n{1}%。最高为\n{2}%。",
+
+  "ability-goodbait": "优质鱼饵",
+  "abilitydesc-goodbait": "鱼咬钩速度提升\n {0}%（每钓鱼\n等级 +{1}%，\n最高 {2}%）。",
+
+  "ability-gourmet": "美食家",
+  "abilitydesc-gourmet": "你烹饪的食物现\n在可以拥有品质\n，基础值为{0}\n，最大值为{1}\n。食用有品质的\n食物会给玩家带\n来持续 10 分\n钟的正面效果。\n效果取决于食物\n的营养价值。效\n果的强度取决于\n食物的品质。你\n一次只能拥有其\n中一种效果。",
+
+  "ability-grafter": "嫁接者",
+  "abilitydesc-grafter": "嫁接和扦插果实\n枝条的成功率增\n加{0}%。",
+
+  "ability-greenthumb": "园艺高手",
+  "abilitydesc-greenthumb": "增加你收获作物\n的产量{0}%，\n并且每提升一级\n耕作技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-guardian": "守护者",
+  "abilitydesc-guardian": "如果你被动格挡\n攻击，用盾牌吸\n收伤害的几率增\n加{0}%。",
+
+  "ability-hammerexpert": "锤子专家",
+  "abilitydesc-hammerexpert": "在铁砧上完成金\n属加工后，你的\n锤子将恢复耐久\n度。恢复的耐久\n度相当于消耗耐\n久度的{0}%，\n并且每提升一级\n打铁技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-happymeal": "快乐餐点",
+  "abilitydesc-happymeal": "烹饪餐点时，你\n有{0}%的基础\n几率添加一个额\n外的随机有效食\n材，并且每提升\n一级烹饪技能额\n外增加{1}%。\n上限为{2}%。",
+
+  "ability-healer": "治疗师",
+  "abilitydesc-healer": "你使用的治疗物\n品在{1}秒内额\n外治疗{0}%。",
+
+  "ability-heatinghits": "加热敲击",
+  "abilitydesc-heatinghits": "每次在铁砧上敲\n击锻造品，其温\n度将增加{0}°C\n。",
+
+  "ability-heavyarmorexpert": "重甲专家",
+  "abilitydesc-heavyarmorexpert": "减少你从护甲获\n得的某些特性值\n{0}%。但也增\n加某些特性值\n{1}%。减少的\n特性：{2}\n增加的特性：{3}",
+
+  "ability-heavyhits": "重击",
+  "abilitydesc-heavyhits": "你对炉渣的重击\n相当于一次分割\n。",
+
+  "ability-hugestomach": "大胃王",
+  "abilitydesc-hugestomach": "增加你的最大饱\n食度{0}。",
+
+  "ability-hunter": "猎人",
+  "abilitydesc-hunter": "你对动物造成的\n伤害增加{0}%\n，动物对你造成\n的伤害减少{0}%\n，并且每提升一\n级畜牧技能额外\n增加{1}%，最\n高为{2}%。",
+
+  "ability-infallible": "万无一失",
+  "abilitydesc-infallible": "增加你的完美契\n合和完美主义者\n能力的半径{0}\n。等级 2 也影\n响层。",
+
+  "ability-inspiration": "灵感",
+  "abilitydesc-inspiration": "当你烧制储物陶\n罐、花盆或种植\n盆时，有{0}%\n的几率创造一个\n特殊的变种。",
+
+  "ability-ironfist": "铁拳",
+  "abilitydesc-ironfist": "增加你空手造成\n的伤害{0}倍，\n乘以你护甲的平\n均防护等级。",
+
+  "ability-jackpot": "中奖",
+  "abilitydesc-jackpot": "完成陶艺工作后\n，你有{0}%的\n基础几率获得第\n二个相同的物品\n，并且每提升一\n级陶艺技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-juicer": "榨汁机",
+  "abilitydesc-juicer": "增加你从一个水\n果中获得的果汁\n量{0}%。",
+
+  "ability-laststand": "最后一搏",
+  "abilitydesc-laststand": "你有几率在受到\n致命一击时存活\n下来。概率相当\n于你剩余的相对\n生命值。",
+
+  "ability-layerlayer": "快速复制",
+  "abilitydesc-layerlayer": "当你复制层时，\n你将额外复制\n{0}个体素。",
+
+  "ability-lightarmorexpert": "轻甲专家",
+  "abilitydesc-lightarmorexpert": "只要你没有穿戴\n会降低行走速度\n的护甲，以下属\n性值将提高 {0}\n%：{1}",
+
+  "ability-lightfooted": "轻盈脚步",
+  "abilitydesc-lightfooted": "减少动物的察觉\n范围{0}%。",
+
+  "ability-longlife": "强体",
+  "abilitydesc-longlife": "增加你的生命值\n{0}%，并且每\n提升一级生存技\n能额外增加{1}%\n。最高为{2}%。",
+
+  "ability-looter": "掠夺者",
+  "abilitydesc-looter": "增加你从怪物身\n上获得的掉落物\n数量{0}%，并\n且每提升一级战\n斗技能额外增加\n{1}%。上限为\n{2}%。",
+
+  "ability-lumberjack": "伐木工",
+  "abilitydesc-lumberjack": "增加砍伐树木获\n得的木材产量\n{0}%，并且每\n提升一级林业技\n能额外增加{1}%\n。最高为{2}%。",
+
+  "ability-luminiferous": "发光体",
+  "abilitydesc-luminiferous": "你在黑暗区域开\n始发光，在你周\n围创造一个亮度\n等级为{2}的明\n亮区域。",
+
+  "ability-machinelearning": "机器学习",
+  "abilitydesc-machinelearning": "你可以与柄锤分\n享你的锻造知识\n，它们可以\n从你的一些能力\n中获益。",
+
+  "ability-magnetichook": "磁性鱼钩",
+  "abilitydesc-magnetichook": "有 {0}% 的几\n率（每钓鱼等级\n +{1}%，最高\n {2}%）从水中\n钓起随机物品而\n非鱼类。",
+
+  "ability-masshusbandry": "大规模畜牧",
+  "abilitydesc-masshusbandry": "增加动物的后代\n数量{0}%，并\n且每提升一级畜\n牧技能额外增加\n{1}%，再乘以\n母体代数的{2}%\n，最高增加{3}%\n。",
+
+  "ability-mastersmith": "锻造大师",
+  "abilitydesc-mastersmith": "你的重击可以将\n最多{0}个体素\n移动到适当的位\n置，而不仅仅是\n分散它们。每个\n体素最多可以移\n动{1}个位置。",
+
+  "ability-meatshield": "肉盾",
+  "abilitydesc-meatshield": "吸收{0}%的受\n到的伤害。你将\n损失相当于吸收\n伤害{1}倍的饱\n食度。",
+
+  "ability-metalrecovery": "金属回收",
+  "abilitydesc-metalrecovery": "在铁砧上完成金\n属加工后，你每\n分割{0}次，将\n获得一个金属颗\n粒。",
+
+  "ability-metalworker": "铁匠(职业)",
+  "abilitydesc-metalworker": "打铁技能将获得\n{0}%更多的经\n验。你可以学习\n的职业数量有限\n。",
+
+  "ability-meteorologist": "气象学家",
+  "abilitydesc-meteorologist": "每天你将获得未\n来{0}天的天气\n预报。",
+
+  "ability-miner": "矿工(职业)",
+  "abilitydesc-miner": "所有采矿活动将\n获得{0}%更多\n的经验。你可以\n学习的职业数量\n有限。",
+
+  "ability-mixedclay": "混合粘土",
+  "abilitydesc-mixedclay": "当你收获一种类\n型的粘土时，有\n{0}%的几率获\n得另一种类型的\n额外粘土。",
+
+  "ability-monk": "武僧",
+  "abilitydesc-monk": "增加你空手造成\n的伤害{0}倍。\n你护甲的平均防\n护等级会降低额\n外伤害。",
+
+  "ability-monsterexpert": "怪物专家",
+  "abilitydesc-monsterexpert": "你将获得一些关\n于你遇到的敌人\n的额外信息。",
+
+  "ability-moreladders": "更多梯子！",
+  "abilitydesc-moreladders": "增加你建造梯子\n的能力，通过破\n坏树叶获得更多\n木棍。当然，你\n也可以直接烧掉\n它们。破坏树叶\n时将获得{0}%\n更多木棍，并且\n每提升一级林业\n技能额外增加\n{1}%。最高为\n{2}%。",
+
+  "ability-nudist": "裸体",
+  "abilitydesc-nudist": "衣物是负担。增\n加你的移动速度\n最多{0}%，生\n命值最多{2}点\n，温度抗性最多\n{6}点，并减\n少你的饥饿率最\n多{4}%。你穿\n戴的每件衣物都\n会减少这些效果\n，并可能导致负\n面效果。",
+
+  "ability-ontheroad": "道路远行",
+  "abilitydesc-ontheroad": "在路径上增加你\n的移动速度{0}%\n。",
+
+  "ability-orchardist": "果园主",
+  "abilitydesc-orchardist": "增加你从果树中\n获得的产量{0}%\n，并且每提升一\n级耕作技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-oreminer": "矿石矿工",
+  "abilitydesc-oreminer": "增加你获得的矿\n石数量{0}%，\n并且每提升一级\n采矿技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-peatcutter": "泥炭切割者",
+  "abilitydesc-peatcutter": "增加泥炭收获产\n量{0}%，并且\n每提升一级挖掘\n技能额外增加\n{1}%。最高为\n{2}%。",
+
+  "ability-perfectfit": "完美契合",
+  "abilitydesc-perfectfit": "当你移除单个体\n素时，你不能移\n除正确的体素。",
+
+  "ability-perfectionist": "完美主义者",
+  "abilitydesc-perfectionist": "当你添加单个体\n素时，你不能添\n加错误的体素。",
+
+  "ability-perfectquenching": "神圣淬火",
+  "abilitydesc-perfectquenching": "此技能允许你无\n限次淬火工具，\n制造出神圣品质\n的工具。",
+
+  "ability-photosynthesis": "光合作用",
+  "abilitydesc-photosynthesis": "在阳光下增加你\n的生命恢复速度\n最多{0}%，但\n在黑暗中减少生\n命恢复速度最多\n{1}%。",
+
+  "ability-pickaxeexpert": "镐头专家",
+  "abilitydesc-pickaxeexpert": "用镐破坏一个方\n块会增加你用镐\n采矿的速度{0}%\n，并且每提升一\n级采矿技能额外\n增加 0.{1}%。\n最高为{2}%。\n此效果最多叠加\n{3}次，持续\n{4}秒。",
+
+  "ability-potter": "陶工(职业)",
+  "abilitydesc-potter": "陶艺技能将获得\n{0}%更多的经\n验。你可以学习\n的职业数量有限\n。",
+
+  "ability-potterytimer": "陶器定时提醒",
+  "abilitydesc-potterytimer": "当有陶器烧制完\n成时，你将收到\n一条消息。",
+
+  "ability-preserver": "保存者",
+  "abilitydesc-preserver": "增加从尸体上收\n获的肉保持新鲜\n的时间{0}%，\n并且每提升一级\n畜牧技能额外增\n加{1}%，最高\n为{2}%。",
+
+  "ability-quickpan": "快速淘洗",
+  "abilitydesc-quickpan": "增加你的淘洗速\n度{0}%。",
+
+  "ability-rancher": "牧场主",
+  "abilitydesc-rancher": "增加从可挤奶动\n物身上获得的牛\n奶产量和你可以\n从鸡窝中拿取的\n鸡蛋数量{0}%。\n此外，挤奶动物\n时有{1}%的几\n率增加其代数，\n最高代数为{2}\n。",
+
+  "ability-recycler": "回收者",
+  "abilitydesc-recycler": "破坏农田现在会\n根据剩余肥力掉\n落泥土。可以将\n土壤改良到基础\n肥力为{0}。",
+
+  "ability-repotting": "换盆",
+  "abilitydesc-repotting": "收割未成熟的作\n物总是会掉落种\n子。",
+
+  "ability-resinextractor": "树脂提取者",
+  "abilitydesc-resinextractor": "你砍伐任何树木\n时都有几率获得\n树脂。几率是你\n树脂农夫能力的\n{0}%。",
+
+  "ability-resinfarmer": "树脂农夫",
+  "abilitydesc-resinfarmer": "每次你砍伐一棵\n松树时，每个原\n木方块有{0}%\n的几率滴下树脂\n。",
+
+  "ability-safequenching": "安全淬火",
+  "abilitydesc-safequenching": "拥有此技能后，\n工具在淬火时不\n会再碎裂成粒。\n如果淬火失败，\n装备只会受到损\n伤。",
+
+  "ability-saltpeterdigger": "硝石挖掘者",
+  "abilitydesc-saltpeterdigger": "增加硝石收获产\n量{0}%，并且\n每提升一级挖掘\n技能额外增加\n{1}%。最高为\n{2}%。",
+
+  "ability-saltybackpack": "咸味背包",
+  "abilitydesc-saltybackpack": "你背包中的烹饪\n原料腐烂速度仅\n为正常的{0}%\n。",
+
+  "ability-salvager": "回收者",
+  "abilitydesc-salvager": "你现在可以拆解\n蝗虫来获取金属\n颗粒。你获得默\n认产量的{0}%\n，并且每提升一\n级打铁技能额外\n增加{1}%。上\n限为{2}%。",
+
+  "ability-scout": "侦察兵",
+  "abilitydesc-scout": "增加你的移动速\n度{0}%。",
+
+  "ability-scrapdetector": "废料探测器",
+  "abilitydesc-scrapdetector": "每次你破坏一个\n沙子或砂砾方块\n时，有{0}%的\n几率像用淘盘筛\n选一样破坏方块\n。",
+
+  "ability-scrapspecialist": "废料专家",
+  "abilitydesc-scrapspecialist": "你的废料探测器\n能力找到稀有物\n品的数量增加\n{1}%。",
+
+  "ability-senseoftime": "时间感",
+  "abilitydesc-senseoftime": "当坩埚中的熔炼\n完成时，你会收\n到一条消息。",
+
+  "ability-shepherd": "牧羊人(职业)",
+  "abilitydesc-shepherd": "畜牧技能将获得\n{0}%更多的经\n验。你可以学习\n的职业数量有限\n。",
+
+  "ability-shifter": "移形者",
+  "abilitydesc-shifter": "根据你的时空稳\n态，有最多{0}%\n的几率躲避敌人\n的任何伤害。稳\n态越低，几率越\n高。",
+
+  "ability-shovelexpert": "铲子专家",
+  "abilitydesc-shovelexpert": "用铲子破坏一个\n方块会增加你用\n铲子挖掘的速度\n{0}%，并且每\n提升一级挖掘技\n能额外增加 0.{1}\n%。最高为{2}%\n。此效果最多叠\n加{3}次，持\n续{4}秒。",
+
+  "ability-shovelknight": "铲子武士",
+  "abilitydesc-shovelknight": "每次你用铲子击\n中一个敌人时，\n有{0}%的几率\n造成大量伤害。",
+
+  "ability-smelter": "冶炼工",
+  "abilitydesc-smelter": "填充模具所需的\n金属减少{0}%\n。仅影响带有不\n可熔炼产品的工\n具模具。",
+
+  "ability-sniper": "狙击手",
+  "abilitydesc-sniper": "增加你远程武器\n的精准度{0}%。",
+
+  "ability-soulboundbag": "魂缚包",
+  "abilitydesc-soulboundbag": "如果你死亡，你\n不会失去强壮后\n背能力背包中的\n物品。",
+
+  "ability-spearman": "矛兵",
+  "abilitydesc-spearman": "增加你用长矛造\n成的伤害{0}%\n，并且每提升一\n级战斗技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-sprinter": "短跑选手",
+  "abilitydesc-sprinter": "增加你的移动速\n度{0}%和你的\n饥饿率{1}%。",
+
+  "ability-stableminer": "稳定矿工",
+  "abilitydesc-stableminer": "如果你处于时空\n稳定区域，增加\n你从所有矿石中\n获得的产量最多\n{0}%。",
+
+  "ability-stablewarrior": "稳定战士",
+  "abilitydesc-stablewarrior": "如果你处于时空\n稳定区域，增加\n你造成的伤害最\n多{0}%。",
+
+  "ability-steeplechaser": "跨栏",
+  "abilitydesc-steeplechaser": "增加你的跨步高\n度{0}%。",
+
+  "ability-stoker": "烧炭工",
+  "abilitydesc-stoker": "破坏木炭层时，\n有 {0}% 的几\n率额外再破坏一\n层。",
+
+  "ability-stonebreaker": "碎石者",
+  "abilitydesc-stonebreaker": "增加你获得的石\n头数量{0}%，\n并且每提升一级\n采矿技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-stonecutter": "石匠",
+  "abilitydesc-stonecutter": "每次你破坏一块\n岩石时，有{0}%\n的基础几率获得\n原岩而不是石头\n，并且每提升一\n级采矿技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-strongback": "强壮背部",
+  "abilitydesc-strongback": "为你的角色增加\n一个拥有{0}个\n槽位的额外背包\n。你可以在这个\n背包和快捷栏之\n间切换物品。\n[默认：R]",
+
+  "ability-strongline": "强力鱼线",
+  "abilitydesc-strongline": "有 {0}% 的几\n率（每钓鱼等级\n +{1}%，最高\n {2}%）使用鱼\n竿时不消耗耐久\n度。",
+
+  "ability-swordsman": "剑士",
+  "abilitydesc-swordsman": "增加你用剑造成\n的伤害{0}%，\n并且每提升一级\n战斗技能额外增\n加{1}%。最高\n为{2}%。",
+
+  "ability-tank": "坦克",
+  "abilitydesc-tank": "增加你用盾牌吸\n收的伤害{0}%\n，并且每提升一\n级战斗技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-tanner": "制革匠",
+  "abilitydesc-tanner": "鞣制皮革时减少\n液体消耗{0}%\n，并且每提升一\n级畜牧技能额外\n增加{1}%。最\n高为{2}%。",
+
+  "ability-temporaladapted": "时空适应",
+  "abilitydesc-temporaladapted": "根据你当前的稳\n态，减少时空稳\n态的损失最多\n{0}%，并且每\n提升一级时空适\n应技能额外减少\n{1}%。稳态越\n低，优势越大。\n最高为{2}%。",
+
+  "ability-temporalrecovery": "时空恢复",
+  "abilitydesc-temporalrecovery": "增加你的时空稳\n态恢复速度{0}%\n。",
+
+  "ability-temporalstable": "时空稳定",
+  "abilitydesc-temporalstable": "减少时空稳态的\n总体损失{0}%\n，并且每提升一\n级时空适应技能\n额外减少{1}%\n。最高为{2}%。",
+
+  "ability-temporalunstable": "时空不稳定",
+  "abilitydesc-temporalunstable": "你的稳定矿工和\n稳定战士能力将\n从时空不稳定区\n域而不是时空稳\n定区域获得加成\n，并且这些加成\n增加{0}%。",
+
+  "ability-thrift": "勤俭节约",
+  "abilitydesc-thrift": "你用于陶艺的每\n块粘土将额外获\n得{0}个体素。",
+
+  "ability-timeless": "永恒",
+  "abilitydesc-timeless": "你将不再受到时\n空不稳态的伤害\n。",
+
+  "ability-timelord": "时空领主(职业)",
+  "abilitydesc-timelord": "时空适应技能将\n获得{0}%更多\n的经验。你可以\n学习的职业数量\n有限。",
+
+  "ability-toolmastery": "工具精通",
+  "abilitydesc-toolmastery": "增加你用工具造\n成的伤害{0}%\n，并且每提升一\n级相应技能额外\n增加{1}%。上\n限为{2}%。镐\n受采矿技能影响\n，斧受林业技能\n影响，锤受打铁\n技能影响，锄受\n耕作技能影响，\n铲受挖掘技能影\n响。",
+
+  "ability-treenursery": "苗圃",
+  "abilitydesc-treenursery": "种植的树木只需\n要{0}%的默认\n时间即可生长。",
+
+  "ability-tunneldigger": "盾构机",
+  "abilitydesc-tunneldigger": "允许你一次挖掘\n一个 3x3 区域\n的石头方块。你\n的工具将额外承\n受{0}%的伤害\n，并且每额外挖\n掘一个方块，你\n将损失{1}点饱\n食度。",
+
+  "ability-vampire": "吸血鬼",
+  "abilitydesc-vampire": "每次你击中一个\n敌人时，你将获\n得相当于造成伤\n害{0}%的治疗\n量。但你在阳光\n下的生命恢复速\n度最多减少{1}%\n。",
+
+  "ability-veinminer": "矿机",
+  "abilitydesc-veinminer": "当你挖掘矿石或\n宝石方块时，你\n会额外挖掘{0}\n个方块，并且每\n提升{1}级采矿\n技能额外增加1\n个。最多挖掘\n{2}个方块。你\n的工具将额外承\n受{3}%的伤害\n，并且每额外挖\n掘一个方块，你\n将损失{4}点饱\n食度。",
+
+  "ability-warrior": "战士(职业)",
+  "abilitydesc-warrior": "击杀敌人将获得\n{0}%更多的经\n验。你可以学习\n的职业数量有限\n。",
+
+  "ability-welldone": "精心烹饪",
+  "abilitydesc-welldone": "增加你烹饪食物\n的保质期{0}%\n，并且每提升一\n级烹饪技能额外\n增加{1}%。上\n限为{2}%。但\n同时烹饪时间也\n增加{3}%。",
+
+  "ability-wellrested": "优质睡眠",
+  "abilitydesc-wellrested": "根据睡眠后的休\n息程度，所有技\n能的经验获取增\n加最多{0}%，\n持续{1}秒。"
+}

@@ -101,7 +101,7 @@
 96. `Bricklayers/泥匠工艺` [3.1.6](https://mods.vintagestory.at/bricklayers)
 97. `PlayerListRevived / 玩家列表复活版` [2.3.8](https://mods.vintagestory.at/show/mod/38228)
 98. `Block Overlay / 块叠加` [4.10.4](https://mods.vintagestory.at/xray)
-99. `Immersive Body Temperature / 沉浸式体温` [1.0.2](https://mods.vintagestory.at/immersivebodytemperature)
+99. `Immersive Body Temperature / 沉浸式体温` [1.3.1](https://mods.vintagestory.at/immersivebodytemperature)
 100. `Algernon's Watersheds / 阿尔杰农的流域` [6.2.0](https://mods.vintagestory.at/algernonswatersheds)
 101. `Interesting Ore Gen / 趣味矿石生成` [2.3.8](https://mods.vintagestory.at/interestingoregen)
 102. `Interesting Mining & Extraction / 趣味采矿与提取` [1.0.13](https://mods.vintagestory.at/interestingme)

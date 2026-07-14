@@ -144,3 +144,4 @@
 139. `QP's Chisel Tools / QP的凿子工具` [1.17.2](https://mods.vintagestory.at/chiseltools)
 140. `Coinage / 铸币` [2.1.9](https://mods.vintagestory.at/coinage)
 141. `Auto Map Markers / 自动地图标记` [5.0.3](https://mods.vintagestory.at/automapmarkers)
+141. `Leaf Litter / 落叶` [1.2.1](https://mods.vintagestory.at/leaflitter)

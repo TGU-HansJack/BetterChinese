@@ -1,0 +1,15 @@
+{
+ "block-leaflitter-*": "落叶",
+ "blockdesc-leaflitter-1": "用作覆盖物以保持耕地湿润",
+ "blockdesc-leaflitter-8": "耙拢的落叶堆。\n在桶中堆肥效率高。",
+ "item-rake": "耙子",
+ "itemdesc-rake": "按住右键并向后行走，将落叶拉成堆。",
+ "rakehint": "按住右键向后行走，将落叶拉向自己。",
+ "toolmode-rake": "耙叶",
+ "toolmode-crook": "钩镰",
+ "toolmode-till": "翻耕草皮",
+ "handbook-rakemodes-title": "使用方法",
+ "handbook-rakemodes-text": "耙子有三种模式，按“选择工具”键切换。\n\n<strong>耙叶：</strong>按住右键并向后行走，将落叶拉向自己，聚成堆。\n\n<strong>钩镰：</strong>按住右键以两倍速度收获浆果和水果。\n\n<strong>翻耕：</strong>在长草的土壤上按住右键，铲除草皮，露出裸土。翻动土地还会将活蚯蚓带到地表。",
+ "handbook-worm-title": "获取方式",
+ "handbook-worm-text": "使用<a href=\"handbook://item-leaflitter:rake\">耙子</a>翻耕土壤可获得蚯蚓。"
+}

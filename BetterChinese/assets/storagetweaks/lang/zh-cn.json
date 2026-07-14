@@ -1,0 +1,12 @@
+{
+  "toggle-favorite-mode-help": "<strong>收藏模式</strong>\n启用时，点击物品栏中的物品会将其添加或移出收藏列表，而不是拾取。\n\n收藏的物品不会被快速存储/卸载按钮卸下。",
+  "toggle-hide-favorites": "切换收藏图标是始终显示在物品槽中，还是仅在收藏选择模式激活时显示。",
+  "toggle-stack-perishables-help": "<strong>强制堆叠</strong>\n启用时，快速存储/卸载和排序会合并通常不会自动合并的物品，例如不同新鲜度的食物（它们的腐坏进度会被混合）。禁用时，这些堆叠会保持分开。",
+  "compact-and-sort": "压缩并排序",
+  "quick-store": "快速存储背包和快捷栏中匹配的物品",
+  "store-nearby": "将匹配内容的物品快速存储到附近容器中",
+  "hotkey-sort-inventory": "排序背包",
+  "hotkey-sort-container": "排序打开的容器",
+  "hotkey-store-nearby": "快速存储到附近容器",
+  "game:item-hoovedwearables-lowerbackside-saddlebags2": "鞍囊"
+}

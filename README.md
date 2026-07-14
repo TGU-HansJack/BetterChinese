@@ -146,3 +146,4 @@
 141. `Auto Map Markers / 自动地图标记` [5.0.3](https://mods.vintagestory.at/automapmarkers)
 142. `Leaf Litter / 落叶` [1.2.1](https://mods.vintagestory.at/leaflitter)
 143. `Achievements / 成就` [1.1.2](https://mods.vintagestory.at/achievements)
+144. `Simple Starvation / 简单饥饿` [1.1.1](https://mods.vintagestory.at/simplestarvation)

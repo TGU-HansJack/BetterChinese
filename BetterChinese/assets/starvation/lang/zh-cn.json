@@ -1,0 +1,23 @@
+{
+    "WalkSpeed": "步行速度",
+    "MiningSpeed": "采矿速度",
+    "MaxHealth": "最大生命值",
+    "MeleeDamage": "近战伤害",
+    "RangedDamage": "远程伤害",
+    "HealingEffectiveness": "治疗时间 ",
+    "HungerRate": "饥饿速率",
+    "RangeWeaponAccuracy": "远程精准度",
+    "RangedWeaponsSpeed": "投射物速度",
+    "RustyGearDropRate": "幸运",
+    "AnimalSeekingRange": "诱食范围",
+    "BowDrawStrength": "弓拉弦强度",
+    "GliderLiftMax": "滑翔升力",
+    "GliderSpeedMax": "滑翔速度",
+    "JumpHeightMul": "跳跃高度",
+    "Nutrition": "营养",
+    "Weight": "重量",
+    "Bonuses": "加成",
+    "weight-title": "重量属性",
+    "Units": "千克",
+    "AverageGain": "平均增益"
+}

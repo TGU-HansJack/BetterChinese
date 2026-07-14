@@ -147,3 +147,4 @@
 142. `Leaf Litter / 落叶` [1.2.1](https://mods.vintagestory.at/leaflitter)
 143. `Achievements / 成就` [1.1.2](https://mods.vintagestory.at/achievements)
 144. `Simple Starvation / 简单饥饿` [1.1.1](https://mods.vintagestory.at/simplestarvation)
+145. `Smoke and Scent / 烟雾与气味` [2.2.0](https://mods.vintagestory.at/show/mod/52819)

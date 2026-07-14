@@ -151,3 +151,4 @@
 146. `Footprints / 足迹` [1.2.5](https://mods.vintagestory.at/footprints)
 147. `BloodTrail / 血迹` [1.2.5](https://mods.vintagestory.at/bloodtrail)
 148. `Tool System Overhaul / 工具系统大修` [2.6.0](https://mods.vintagestory.at/nodeathtoaxe)
+149. `Downed / 倒下` [2.2.2](https://mods.vintagestory.at/downed)

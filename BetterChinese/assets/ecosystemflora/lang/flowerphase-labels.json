@@ -1,0 +1,30 @@
+{
+  "en": {
+    "vegetative": "foliage",
+    "dormant": "dormant",
+    "dieback": "dieback",
+    "sporulating": "active",
+    "seedling": "seedling"
+  },
+  "ru": {
+    "vegetative": "зелень",
+    "dormant": "покой",
+    "dieback": "отмирание",
+    "sporulating": "активная фаза",
+    "seedling": "всход"
+  },
+  "de": {
+    "vegetative": "Laub",
+    "dormant": "Ruhephase",
+    "dieback": "Absterben",
+    "sporulating": "aktiv",
+    "seedling": "Setzling"
+  },
+  "zh-cn": {
+    "vegetative": "绿叶",
+    "dormant": "休眠",
+    "dieback": "枯萎",
+    "sporulating": "活跃",
+    "seedling": "幼苗"
+  }
+}

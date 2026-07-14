@@ -155,3 +155,4 @@
 150. `BetterHandbook / 更好的手册` [1.0.8](https://mods.vintagestory.at/show/mod/50652)
 151. `Storage Tweaks / 存储调整` [1.3.3](https://mods.vintagestory.at/storagetweaks)
 152. `Immersive Fibercraft / 沉浸式纤维工艺` [1.2.12](https://mods.vintagestory.at/show/mod/34327)
+153. `Ecosystem - Flora / 生态系统 - 植物群` [4.8.15](https://mods.vintagestory.at/ecosystemflora)

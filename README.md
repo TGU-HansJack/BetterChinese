@@ -32,7 +32,7 @@
 27. `Combat Overhaul / 战斗大修` [0.3.6](https://mods.vintagestory.at/combatoverhaul)
 28. `Combat Overhaul : Armory / 战斗大修：武器库` [0.1.2](https://mods.vintagestory.at/armory)
 29. `FireStarters / 生火工具` [1.4.0](https://mods.vintagestory.at/firestarters)
-30. `Hydrate Or Diedrate / 饮水求生` [2.4.6](https://mods.vintagestory.at/hydrateordiedrate)
+30. `Hydrate Or Diedrate / 饮水求生` [2.5.1](https://mods.vintagestory.at/hydrateordiedrate)
 31. `A Culinary Artillery / 烹饪厨具` [2.0.0-dev.19](https://mods.vintagestory.at/aculinaryartillery)
 32. `Herbarium / 植物标本库` [1.4.0](https://mods.vintagestory.at/herbarium)
 33. `Wildcraft: Fruits and Nuts / 野生工艺：水果与坚果` [1.4.3](https://mods.vintagestory.at/wildcraftfruit)

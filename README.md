@@ -193,3 +193,4 @@
 188. `Envelopes / 信封与包裹` [3.9.1](https://mods.vintagestory.at/envelopes)
 189. `Glazed Fancy Pots / 精美釉陶` [1.2.2](https://mods.vintagestory.at/glazedpots)
 190. `Heraldry : Core / 纹章：核心` [2.0.0](https://mods.vintagestory.at/heraldry)
+191. `Player Status HUD / 玩家状态栏` [1.0.1](https://mods.vintagestory.at/playerstatushud)

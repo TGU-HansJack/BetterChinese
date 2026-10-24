@@ -202,3 +202,4 @@
 197. `SmithingPlusPlus / 锻造增强` [1.10.7](https://mods.vintagestory.at/smithingplusplus)
 198. `Spyglass Fork / 望远镜分支` [0.6.2](https://mods.vintagestory.at/spyglassfork)
 199. `Tankards, Goblets and More! / 啤酒杯与高脚杯` [1.4.4](https://mods.vintagestory.at/tankardsandgoblets)
+200. `Torches Contribute Heat / 火把供热` [2.0.1](https://mods.vintagestory.at/torchescontributeheat)

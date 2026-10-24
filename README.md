@@ -190,3 +190,4 @@
 185. `Dynamic Seasonal Temperature /  动态季节温度` [1.4.0](https://mods.vintagestory.at/show/mod/69562)
 186. `Billposting / 告示` [2.0.3](https://mods.vintagestory.at/billposting)
 187. `Heraldry : Capes / 纹章：披风` [2.0.0](https://mods.vintagestory.at/capes)
+188. `Envelopes / 信封与包裹` [3.9.1](https://mods.vintagestory.at/envelopes)

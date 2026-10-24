@@ -203,3 +203,4 @@
 198. `Spyglass Fork / 望远镜分支` [0.6.2](https://mods.vintagestory.at/spyglassfork)
 199. `Tankards, Goblets and More! / 啤酒杯与高脚杯` [1.4.4](https://mods.vintagestory.at/tankardsandgoblets)
 200. `Torches Contribute Heat / 火把供热` [2.0.1](https://mods.vintagestory.at/torchescontributeheat)
+201. `Vintage Canvas / 复古画布` [1.4.0](https://mods.vintagestory.at/vintagecanvas)

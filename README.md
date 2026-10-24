@@ -198,3 +198,4 @@
 193. `Real Smoke / 真实烟雾` [2.0.0-pre.11](https://mods.vintagestory.at/realsmoke)
 194. `Scaffolding / 脚手架` [1.3.1](https://mods.vintagestory.at/scafolding)
 195. `Scribe: Notes & Tasks / 书写员：笔记与任务` [1.4.3](https://mods.vintagestory.at/scribe)
+196. `Simple Voice Chat / 简单语音聊天` [1.3.7](https://mods.vintagestory.at/simplevoicechat)

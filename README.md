@@ -194,3 +194,4 @@
 189. `Glazed Fancy Pots / 精美釉陶` [1.2.2](https://mods.vintagestory.at/glazedpots)
 190. `Heraldry : Core / 纹章：核心` [2.0.0](https://mods.vintagestory.at/heraldry)
 191. `Player Status HUD / 玩家状态栏` [1.0.1](https://mods.vintagestory.at/playerstatushud)
+192. `Purposeful Storage / 专用收纳` [2.2.1](https://mods.vintagestory.at/purposefulstorage)

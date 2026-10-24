@@ -26,7 +26,7 @@
 21. `Unconscious / 昏迷机制` [1.8.3](https://mods.vintagestory.at/unconscious)
 22. `Status Hud Continued / 状态HUD延续版` [4.3.1](https://mods.vintagestory.at/show/mod/9817)
 23. `Natural Trail Mod CUPdated / 自然小径模组C更新版` [1.2.0](https://mods.vintagestory.at/trailmodcupdated)
-24. `Carry On / 随身携带` [2.0.0-pre.2](https://mods.vintagestory.at/carryon)
+24. `Carry On / 随身携带` [2.0.0-rc.1](https://mods.vintagestory.at/carryon)
 25. `Butchering / 屠宰系统` [1.14.3](https://mods.vintagestory.at/butchering)
 26. `Animal cages / 动物笼子` [5.0.0](https://mods.vintagestory.at/animalcages)
 27. `Combat Overhaul / 战斗大修` [0.3.6](https://mods.vintagestory.at/combatoverhaul)

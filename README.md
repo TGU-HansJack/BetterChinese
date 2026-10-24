@@ -188,3 +188,4 @@
 183. `Komet - Performance Mod / 彗星 - 性能模组` [2.0.0](https://mods.vintagestory.at/komet)
 184. `Desire Paths / 欲望之路` [0.5.1](https://mods.vintagestory.at/desirepaths)
 185. `Dynamic Seasonal Temperature /  动态季节温度` [1.4.0](https://mods.vintagestory.at/show/mod/69562)
+186. `Billposting / 告示` [2.0.3](https://mods.vintagestory.at/billposting)

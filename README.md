@@ -59,7 +59,7 @@
 54. `Overhaul Library / 大修库` [0.2.4](https://mods.vintagestory.at/overhaullib)
 55. `Dana Can Cook / Dana会烹饪` [0.2.5](https://mods.vintagestory.at/danacancook)
 56. `SqueezeHoneyCombIntoBarrel / 将蜂蜜挤入桶中` [1.0.0](https://mods.vintagestory.at/22112)
-57. `From Golden Combs / 来自金色蜂巢` [1.8.12](https://mods.vintagestory.at/fromgoldencombs)
+57. `From Golden Combs / 来自金色蜂巢` [2.1.0](https://mods.vintagestory.at/fromgoldencombs)
 58. `Simple Scored Logs / 简单计分原木` [0.0.6](https://mods.vintagestory.at/show/mod/21403)
 59. `Custom Flowerpots / 自定义花盆` [1.2.5](https://mods.vintagestory.at/customflowerpots)
 60. `Clayworks / 黏土工坊` [0.4.3](https://mods.vintagestory.at/clayworks)
